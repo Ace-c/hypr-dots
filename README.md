@@ -1,0 +1,2 @@
+# Cascade
+A hyprland dotfiles
