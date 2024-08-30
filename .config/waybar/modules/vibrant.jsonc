@@ -1,0 +1,5 @@
+    "custom/vibrant": {
+        "format": "󪥖 ",
+        "on-click": "hyprshade on ~/.config/hypr/shaders/vibrance-custom.glsl",
+    },
+      

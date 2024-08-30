@@ -1,0 +1,33 @@
+
+
+
+@define-color background #1d1b1e;
+@define-color on-background #e6e1e6;
+@define-color primary #d3bbff;
+@define-color primary-container #523689;
+@define-color on-primary #3b1d71;
+@define-color on-primary-container #7e5ba6;
+@define-color secondary #cdc2db;
+@define-color on-secondary #342d40;
+@define-color secondary-container #383340;
+@define-color on-secondary-container #ffffff;
+@define-color workspace-active #970ff2;
+@define-color error #ffb4ab;
+@define-color error-container #93000a;
+@define-color on-error #690005;
+@define-color on-error-container #ffdad6;
+@define-color outline #90909a;
+@define-color surface #1d1b1e;
+@define-color on-surface #e6e1e6;
+@define-color surface-variant #49454e;
+@define-color on-surface-variant #cbc4cf;
+@define-color shadow #000000;
+@define-color surface-tint #d3bbff;
+@define-color scrim #000000;
+@define-color green #a6da95;
+@define-color red #ff6961;
+@define-color cava #b8a5c7;
+@define-color network #e0d9d3;
+@define-color updates #a3f76a;
+@define-color playerctl-1 #d6b3ff;
+@define-color playerctl-2 #8854e8;
