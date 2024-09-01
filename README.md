@@ -1,4 +1,4 @@
-# Cascade
+# Frozen
 A hyprland dotfiles
 
 
