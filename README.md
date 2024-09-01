@@ -10,3 +10,11 @@ A hyprland dotfiles
 ![2024-08-30-233547_hyprshot](https://github.com/user-attachments/assets/28fbdbe0-ab7a-41ac-a009-fd622efbf2ee)
 ![2024-08-30-233449_hyprshot](https://github.com/user-attachments/assets/b8734e75-10c4-40ee-a400-883189a1e168)
 ![2024-08-30-233139_hyprshot](https://github.com/user-attachments/assets/f5b6489c-a116-48df-920f-c48ee14e8585)
+
+Dependencies :
+
+
+
+waybar cava kitty mpris dunst swww wlogout swaylockd mpris hyprshot hyprshade wl-clipboard rofi 
+
+Instructions :
