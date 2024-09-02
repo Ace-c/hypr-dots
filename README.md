@@ -1,4 +1,6 @@
 
+# Themes :
+
     Dracula | Gruv | Nord
 
 # Dependencies :
