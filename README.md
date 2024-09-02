@@ -1,5 +1,12 @@
-# Frozen
-A hyprland dotfiles
+
+    Dracula | Gruv | Nord
+
+# Dependencies :
+
+    Waybar cava kitty mpris dunst swww wlogout swaylockd mpris hyprshot hyprshade wl-clipboard rofi
+
+
+# Gallery :
 
 ![2024-08-30-233139_hyprshot](https://github.com/user-attachments/assets/f5b6489c-a116-48df-920f-c48ee14e8585)
 ![2024-08-30-234828_hyprshot](https://github.com/user-attachments/assets/7cce8766-0139-46ab-9e26-1270c2d79bdd)
@@ -9,10 +16,5 @@ A hyprland dotfiles
 ![2024-08-30-233547_hyprshot](https://github.com/user-attachments/assets/28fbdbe0-ab7a-41ac-a009-fd622efbf2ee)
 
 
-Dependencies :
 
-
-
-waybar cava kitty mpris dunst swww wlogout swaylockd mpris hyprshot hyprshade wl-clipboard rofi 
-
-Instructions :
+# Instructions :
