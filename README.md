@@ -13,8 +13,8 @@
 # Dependencies :
 
 ## Official 
-    Waybar cava kitty mpv-mpris dunst swww hyprshot hyprshade wl-clipboard rofi qt5ct qt6ct nwg-look discord playerctl
+    Waybar cava kitty mpv-mpris dunst swww wl-clipboard rofi qt5ct qt6ct nwg-look discord playerctl
 ## AUR 
-    wlogout swaylock-effects-git visual-studio-code-bin Ungoogled-chromium-bin betterdiscord-installer wttrbar
+    hyprshot hyprshade wlogout swaylock-effects-git visual-studio-code-bin Ungoogled-chromium-bin betterdiscord-installer wttrbar
 
 # Instructions :
