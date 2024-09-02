@@ -18,3 +18,6 @@
     hyprshot hyprshade wlogout swaylock-effects-git visual-studio-code-bin betterdiscord-installer wttrbar
 
 # Instructions :
+
+
+# Some Important Keybindings :
