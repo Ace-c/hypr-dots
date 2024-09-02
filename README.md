@@ -12,7 +12,8 @@
 
 # Dependencies :
 
-    Waybar cava kitty mpris dunst swww wlogout swaylockd mpris hyprshot hyprshade wl-clipboard rofi
+    Waybar cava kitty mpris dunst swww wlogout swaylockd mpris hyprshot hyprshade wl-clipboard rofi wttrbar
 
+** Install from AUR **
 
 # Instructions :
