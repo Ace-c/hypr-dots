@@ -3,15 +3,41 @@
 
     Dracula | Gruv | Nord
 
-![2024-08-30-233547_hyprshot](https://github.com/user-attachments/assets/28fbdbe0-ab7a-41ac-a009-fd622efbf2ee)
+![2024-09-01-150903_hyprshot]()
+
+## Dracula :
+<table>
+  <tr>
+    <td><img src="" width="500" height="220"/></td>
+    <td><img src="" width="500" height="220"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c418ee5a-b366-4b3f-b563-149421429fb6" width="500" height=220"/></td>
+    <td><img src="" width="500" height="220"/></td>
+  </tr>
+</table>
+
+## Gruv :
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/f5b6489c-a116-48df-920f-c48ee14e8585" width="500" height="220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/7cce8766-0139-46ab-9e26-1270c2d79bdd" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/28fbdbe0-ab7a-41ac-a009-fd622efbf2ee" width="500" height="220"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/43237aa5-be18-4591-bc8b-6f9da2f90764" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/4368c4c1-7619-43a6-9fe5-8f91cb13256a" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1274140d-1022-408f-9cf4-d87e526b86bb" width="500" height=220"/></td>
+    <td><img src="" width="500" height="220"/></td>
+  </tr>
+</table>
+
+## Nord :
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/7cce8766-0139-46ab-9e26-1270c2d79bdd" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/43237aa5-be18-4591-bc8b-6f9da2f90764" width="500" height="220"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c1c94429-b722-4ca6-8963-63aaa1c78e14" width="500" height=220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/beca5cbb-4562-42ca-8045-c0aabfbc5462" width="500" height="220"/></td>
   </tr>
 </table>
 
