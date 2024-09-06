@@ -40,6 +40,18 @@
   </tr>
 </table>
 
+# Terminal and Vs code :
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/d5d0c3a5-e3b9-498c-bdc1-29228c05a7c7" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/7b5a5937-0dbc-4259-8439-954b76488191" width="500" height="220"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/1592cd84-9db5-48f3-bd6f-a117542c5e4c" width="500" height=220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/e9313a44-4f61-4cd0-a494-2fcc343a38b6" width="500" height="220"/></td>
+  </tr>
+
+
 # Dependencies :
 
 ## Official 
