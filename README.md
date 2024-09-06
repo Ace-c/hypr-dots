@@ -55,8 +55,6 @@
     <td><img src="https://github.com/user-attachments/assets/9ac41c70-4760-4173-bf48-f83fad886710" width="500" height="220"/></td>
   </tr>
 
-
-
 # Dependencies :
 
 ## Official 
@@ -64,9 +62,8 @@
 ## AUR 
     hyprshot hyprshade hyprlock wlogout swaylock-effects-git visual-studio-code-bin betterdiscord-installer wttrbar
 
-# Instructions :
-> Install the following icons in .icons(read README.txt
-> Install following theme in .themes (read README.txt)
 
 
-# Some Important Keybindings :
+
+
+
