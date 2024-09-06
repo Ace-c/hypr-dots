@@ -3,7 +3,6 @@
 
     Dracula | Gruv | Nord
 
-![2024-09-01-150903_hyprshot]()
 
 ## Dracula :
 <table>
@@ -13,7 +12,7 @@
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/c418ee5a-b366-4b3f-b563-149421429fb6" width="500" height=220"/></td>
-    <td><img src="" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/00a3e17b-3804-446e-91ce-4145eb874ce9" width="500" height="220"/></td>
   </tr>
 </table>
 
