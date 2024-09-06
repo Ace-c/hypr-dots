@@ -24,7 +24,7 @@
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/1274140d-1022-408f-9cf4-d87e526b86bb" width="500" height=220"/></td>
-    <td><img src="" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/baf89d8e-e9ac-44d3-9334-8f584ef4a7df" width="500" height="220"/></td>
   </tr>
 </table>
 
