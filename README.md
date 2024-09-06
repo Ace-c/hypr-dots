@@ -40,7 +40,7 @@
   </tr>
 </table>
 
-# Terminal and Vs code :
+## Terminal and Vs code :
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/d5d0c3a5-e3b9-498c-bdc1-29228c05a7c7" width="500" height="220"/></td>
@@ -48,9 +48,12 @@
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/1592cd84-9db5-48f3-bd6f-a117542c5e4c" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/e9313a44-4f61-4cd0-a494-2fcc343a38b6" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/d7fd0dbd-a4bd-406e-a8e3-f4a27204c40b" width="500" height="220"/></td>
   </tr>
-
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/e9313a44-4f61-4cd0-a494-2fcc343a38b6" width="500" height=220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/9ac41c70-4760-4173-bf48-f83fad886710" width="500" height="220"/></td>
+  </tr>
 
 # Dependencies :
 
