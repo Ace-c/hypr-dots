@@ -40,7 +40,7 @@
   </tr>
 </table>
 
-## Other application themes :
+## Some riceshots :
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/d5d0c3a5-e3b9-498c-bdc1-29228c05a7c7" width="500" height="220"/></td>
@@ -54,15 +54,6 @@
     <td><img src="https://github.com/user-attachments/assets/e9313a44-4f61-4cd0-a494-2fcc343a38b6" width="500" height=220"/></td>
     <td><img src="https://github.com/user-attachments/assets/9ac41c70-4760-4173-bf48-f83fad886710" width="500" height="220"/></td>
   </tr>
-
-# Dependencies :
-
-## Official 
-    Waybar cava kitty mpv-mpris dunst swww wl-clipboard rofi qt5ct qt6ct nwg-look discord playerctl btop ranger
-## AUR 
-    hyprshot hyprshade hyprlock wlogout swaylock-effects-git visual-studio-code-bin betterdiscord-installer wttrbar
-
-
 
 
 
