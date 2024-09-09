@@ -107,4 +107,4 @@ Install [NvChad](https://nvchad.com/) theme
 
 ## Install following fonts :
 
-    maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler 
+    maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family
