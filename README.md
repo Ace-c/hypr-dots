@@ -90,9 +90,21 @@ Following frameworks,tools and apps have theme sync:
 * Kitty
 * Cava
 
-## Install themes for apss :
+## Install following themes for applications :
 
 ### Neovim
 Install [NvChad](https://nvchad.com/) theme
 
+### Visual studio code
+* Monokai pro (Currently I use this one in dracula theme, you can change it in script)
+* Monokai classic
+* Dracula (Not included in dracula theme, you can change it in script)
+* Nord
 
+### Discord 
+* Install [betterdiscod](https://betterdiscord.app/)
+* Install all [midnight](https://betterdiscord.app/theme/midnight) theme varient
+
+## Install following fonts :
+
+    maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler 
