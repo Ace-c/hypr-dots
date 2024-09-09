@@ -1,0 +1,4 @@
+    "custom/screenshot": {
+        "format": "📼",
+        "on-click": "hyprshot -m region"
+    },

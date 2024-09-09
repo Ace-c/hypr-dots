@@ -1,0 +1,5 @@
+"disk": {
+    "interval": 30,
+    "format": "\uF200  {percentage_used}%",
+    "path": "/"
+},
