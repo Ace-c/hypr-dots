@@ -1,7 +1,7 @@
 # DO NOT EDIT! This file will be overwritten by nwg-look.
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
-include "/home/ayu/.gtkrc-2.0.mine"
+include "~/.gtkrc-2.0.mine"
 gtk-theme-name="Dracula"
 gtk-icon-theme-name="Tela-circle-dracula"
 gtk-font-name="IBM Plex Sans Medium 10"
