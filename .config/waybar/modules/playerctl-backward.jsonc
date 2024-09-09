@@ -1,6 +1,0 @@
-    "custom/playerctl-backward": {
-        "format": "󰙣",
-        "on-click": "playerctl previous",
-        "on-scroll-up": "playerctl volume .05+",
-        "on-scroll-down": "playerctl volume .05-",
-    },
