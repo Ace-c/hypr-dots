@@ -74,10 +74,10 @@
 
 Following frameworks,tools and apps have theme sync:
 
-. Hyprland
-. Waybar
-. Wlogout
-. Rofi
+* Hyprland
+* Waybar
+* Wlogout
+* Rofi
 . Qt (5,6)
 . GTK (2,3,4)
 . VS Code
