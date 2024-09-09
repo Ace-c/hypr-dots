@@ -66,31 +66,28 @@
 # Dependencies :
 
 ## Official 
-    Waybar cava kitty mpv-mpris dunst swww wl-clipboard rofi qt5ct qt6ct nwg-look discord playerctl btop ranger ydotool
+    Waybar cava kitty mpv-mpris dunst swww wl-clipboard rofi qt5ct qt6ct nwg-look discord playerctl btop ranger xdotool pcmanfm-qt
 ## AUR 
     hyprshot hyprshade hyprlock wlogout visual-studio-code-bin betterdiscord-installer wttrbar xdotool
 
 
 
-Following apps have theme sync :
+Following frameworks,tools and apps have theme sync:
 
-1. Waybar
-2. Wlogout
-3. Rofi
-4. Qt5
-5. Qt6
-6. GTK3
-7. GTK4
-8. Kvantum
-9. VS Code
-10. Hyprlock
-11. Bashtop
-12. Discord
-13. Neovim
-14. Dunst
-15. Swww
-16. Kitty
-17. Hyprland
-18. Cava
+. Hyprland
+. Waybar
+. Wlogout
+. Rofi
+. Qt (5,6)
+. GTK (2,3,4)
+. VS Code
+. Hyprlock
+. Bashtop
+. Discord
+. Neovim
+. Dunst
+. Swww
+. Kitty
+. Cava
 
 
