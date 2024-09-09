@@ -105,6 +105,7 @@ Install [NvChad](https://nvchad.com/) theme
 * Install [betterdiscod](https://betterdiscord.app/)
 * Install all [midnight](https://betterdiscord.app/theme/midnight) theme varient
 
+
 ## Install following fonts :
 
     maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family
