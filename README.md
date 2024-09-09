@@ -56,13 +56,13 @@
     <td><img src="https://github.com/user-attachments/assets/9ac41c70-4760-4173-bf48-f83fad886710" width="500" height="220"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/49195b90-3df4-4d75-bda3-5da7d297bae5" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/595e382a-e0eb-4234-b576-245936b8337c" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/df2f1090-a1b6-4b87-9e87-f9a7073bcb1e" width="500" height=220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/c3e59038-6937-4b3b-be66-59c28f8e9f9a" width="500" height="220"/></td>
   </tr>
 </table>
 
 
-  
+
 # Dependencies :
 
 ## Official 
@@ -91,5 +91,6 @@ Following apps have theme sync :
 15. Swww
 16. Kitty
 17. Hyprland
+18. Cava
 
 
