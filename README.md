@@ -90,4 +90,9 @@ Following frameworks,tools and apps have theme sync:
 * Kitty
 * Cava
 
+## Install themes for apss :
+
+### Neovim
+Install [NvChad](https://nvchad.com/) theme
+
 
