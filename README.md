@@ -1,5 +1,5 @@
 
-# Themes :
+# Frozen :
 
     Dracula | Gruv | Nord
 
