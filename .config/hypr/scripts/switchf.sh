@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Correct NvChad config file location
+# NvChad config file location
 NVIM_CONFIG="$HOME/.config/nvim/lua/chadrc.lua"
 
 # Cava themes file location
