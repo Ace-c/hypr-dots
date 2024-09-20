@@ -1,5 +1,5 @@
 
-# Frozen :
+# Themes :
 
     Dracula | Gruv | Nord
 
@@ -24,7 +24,7 @@
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/1274140d-1022-408f-9cf4-d87e526b86bb" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/baf89d8e-e9ac-44d3-9334-8f584ef4a7df" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1b82d660-19f8-407d-9088-85604d0a4592" width="500" height="220"/></td>
   </tr>
 </table>
 
@@ -89,6 +89,11 @@ Following frameworks,tools and apps have theme sync:
 * Swww
 * Kitty
 * Cava
+* Firefox
+  
+ Added these two optionally, you have to add "switchg.sh" script to "switchmaster" script
+* Obsidian
+* Okular
 
 ## Install following themes for applications :
 
@@ -104,6 +109,11 @@ Install [NvChad](https://nvchad.com/) theme
 ### Discord 
 * Install [betterdiscod](https://betterdiscord.app/)
 * Install all [midnight](https://betterdiscord.app/theme/midnight) theme varient
+
+  ### Obsidian
+  * Dracula Gemini
+  * Obsidian Gruvbox
+  * Nordic
 
 
 ## Install following fonts :
