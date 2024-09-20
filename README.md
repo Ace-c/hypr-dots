@@ -7,12 +7,12 @@
 ## Dracula :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/0b9f1cce-e2f4-419c-91ba-b67fc19efe59" width="500" height="220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/31271c11-aad8-4d88-a697-f12fb09c59a9" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/b4d127b0-2560-405a-a562-e0d18654b6bc" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/6ba1506e-92ae-4f1c-9026-1342fd24c31b" width="500" height="220"/></td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/c418ee5a-b366-4b3f-b563-149421429fb6" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/00a3e17b-3804-446e-91ce-4145eb874ce9" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1462b7cc-3cae-43c0-b255-04498497aca2" width="500" height="220"/></td>
   </tr>
 </table>
 
