@@ -118,9 +118,9 @@ Install [NvChad](https://nvchad.com/) theme
 NOTE : Do change the location of the appearance.json in script (switchg)
 
 ### Firefox
-Install this [Theme](https://github.com/EliverLara/firefox-nordic-theme)
-Do change the location of firefox (dark.css file) in script (Switchf)
-Install [Startpage](https://github.com/migueravila/Bento) or Install this [New-Tab Extenstion](https://addons.mozilla.org/en-US/firefox/addon/bento/)
+* Install this [Theme](https://github.com/EliverLara/firefox-nordic-theme)
+* Do change the location of firefox (dark.css file) in script (Switchf)
+* Install [Startpage](https://github.com/migueravila/Bento) or Install this [New-Tab Extenstion](https://addons.mozilla.org/en-US/firefox/addon/bento/)
 
 ## Install following fonts :
 
