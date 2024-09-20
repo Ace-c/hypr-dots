@@ -102,9 +102,8 @@ Following frameworks,tools and apps have theme sync:
 Install [NvChad](https://nvchad.com/) theme
 
 ### Visual studio code
-* Monokai pro (Currently I use this one in dracula theme, you can change it in script)
-* Monokai classic
-* Dracula (Not included in dracula theme, you can change it in script)
+* Dracula Clean
+* Monokai classic* | Gruvbox dark soft(change theme name in script(switcha.sh))
 * Nord
 
 ### Discord 
