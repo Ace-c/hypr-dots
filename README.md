@@ -114,6 +114,7 @@ Install [NvChad](https://nvchad.com/) theme
 * Dracula Gemini
 * Obsidian Gruvbox
 * Nordic
+  
 NOTE : Do change the location of the appearance.json in script (switchg)
 
 ### Firefox
