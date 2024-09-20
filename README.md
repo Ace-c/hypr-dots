@@ -103,7 +103,7 @@ Install [NvChad](https://nvchad.com/) theme
 
 ### Visual studio code
 * Dracula Clean
-* Monokai classic* | Gruvbox dark soft(change theme name in script(switcha.sh))
+* Monokai classic* | Gruvbox dark soft (change theme name in script (switcha.sh))
 * Nord
 
 ### Discord 
