@@ -110,11 +110,13 @@ Install [NvChad](https://nvchad.com/) theme
 * Install [betterdiscod](https://betterdiscord.app/)
 * Install all [midnight](https://betterdiscord.app/theme/midnight) theme varient
 
-  ### Obsidian
-  * Dracula Gemini
-  * Obsidian Gruvbox
-  * Nordic
+### Obsidian
+* Dracula Gemini
+* Obsidian Gruvbox
+* Nordic
 
+### Firefox
+Install this [Theme](https://github.com/EliverLara/firefox-nordic-theme)
 
 ## Install following fonts :
 
