@@ -37,7 +37,7 @@ change_vscode_theme() {
 
     case "$theme" in
         "dracula")
-            new_theme="Monokai Pro"
+            new_theme="Dracula Clean"
             ;;
         "gruv")
             new_theme="Monokai Classic"
