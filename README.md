@@ -114,9 +114,11 @@ Install [NvChad](https://nvchad.com/) theme
 * Dracula Gemini
 * Obsidian Gruvbox
 * Nordic
+NOTE : Do change the location of the appearance.json in script (switchg)
 
 ### Firefox
 Install this [Theme](https://github.com/EliverLara/firefox-nordic-theme)
+Do change the location of firefox (dark.css file) in script (Switchf)
 
 ## Install following fonts :
 
