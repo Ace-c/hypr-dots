@@ -2,13 +2,14 @@
 # Themes :
 
     Dracula | Gruv | Nord
+![2024-09-25-013526_hyprshot]()
 
 
 ## Dracula :
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/b4d127b0-2560-405a-a562-e0d18654b6bc" width="500" height="220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/6ba1506e-92ae-4f1c-9026-1342fd24c31b" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/27488ab8-0a8b-48dd-a3bc-b6083061f34c" width="500" height="220"/></td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/c418ee5a-b366-4b3f-b563-149421429fb6" width="500" height=220"/></td>
