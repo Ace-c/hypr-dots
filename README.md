@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/c418ee5a-b366-4b3f-b563-149421429fb6" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/1462b7cc-3cae-43c0-b255-04498497aca2" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/99cb47a7-4c76-4ca8-a1b3-86dbadfd817d" width="500" height="220"/></td>
   </tr>
 </table>
 
