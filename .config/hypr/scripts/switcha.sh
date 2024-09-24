@@ -68,7 +68,7 @@ change_gradient_and_vscode() {
 # Check command line argument
 case "$1" in
     -d|--dracula)
-        change_gradient_and_vscode "dracula"
+        change_gradient_and_vscode "Dracula Clean"
         ;;
     -g|--gruv)
         change_gradient_and_vscode "gruv"
