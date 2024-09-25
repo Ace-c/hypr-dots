@@ -40,7 +40,7 @@ change_vscode_theme() {
             new_theme="Dracula Clean"
             ;;
         "gruv")
-            new_theme="Monokai Classic"
+            new_theme="Gruvbox Dark Medium"
             ;;
         "nord")
             new_theme="Nord"
@@ -68,7 +68,7 @@ change_gradient_and_vscode() {
 # Check command line argument
 case "$1" in
     -d|--dracula)
-        change_gradient_and_vscode "Dracula Clean"
+        change_gradient_and_vscode "dracula"
         ;;
     -g|--gruv)
         change_gradient_and_vscode "gruv"
