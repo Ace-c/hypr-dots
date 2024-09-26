@@ -89,7 +89,7 @@ case "$1" in
         change_all_themes "Tela-circle-dracula" "Tela-circle-dracula" "Dracula" "Dracula" "Dracula"
         ;;
     -g|--gruv)
-        change_all_themes "Tela-circle-black" "Tela-circle-black" "Gruvbox" "Gruv" "Gruv"
+        change_all_themes "Tela-circle-gruv" "Tela-circle-gruv" "Gruvbox" "Gruv" "Gruv"
         ;;
     -n|--nord)
         change_all_themes "Tela-circle-nord" "Tela-circle-nord" "Nord" "Nord" "Nord"
