@@ -1,5 +1,5 @@
 
-Place following Icons here :
+Icons Needed :
 
 1. Bibata-Modern-Ice
 2. Tela-circle-black
