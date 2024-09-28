@@ -92,7 +92,7 @@ change_all_themes() {
 # Check command line argument
 case "$1" in
     -d|--dracula)
-        change_all_themes "midnight (catppuccin frappé)" "dracula" "dracula" "dracula"
+        change_all_themes "Dracula Edition" "dracula" "dracula" "dracula"
         ;;
     -g|--gruv)
         change_all_themes "midnight (vencord)" "gruvbox_dark" "gruv" "gruv"
