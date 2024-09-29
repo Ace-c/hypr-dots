@@ -7,7 +7,7 @@
 ## Dracula :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/b4d127b0-2560-405a-a562-e0d18654b6bc" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/f066f02f-802c-4efa-9399-a0cdf6a7826b" width="500" height="220"/></td>
     <td><img src="https://github.com/user-attachments/assets/3fce5c54-d5fe-45f3-9d10-d1ae33ae475c" width="500" height="220"/></td>
   </tr>
   <tr>
