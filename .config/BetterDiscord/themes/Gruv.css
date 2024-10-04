@@ -1,16 +1,9 @@
 /**
- * @name midnight (vencord)
- * @description A dark, rounded discord theme. Based on Vencord's colour palette. (https://vencord.dev/)
- * @author refact0r, esme, anubis
+ * @name Gruv
+ * @description A dark, rounded discord theme with a Gruvbox color palette.
+ * @author ayu, refact0r
  * @version 1.6.2
- * @invite nz87hXyvcy
- * @website https://github.com/refact0r/midnight-discord
- * @source https://github.com/refact0r/midnight-discord/blob/master/flavors/midnight-vencord.theme.css
- * @authorId 508863359777505290
- * @authorLink https://www.refact0r.dev
 */
-
-/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
 
