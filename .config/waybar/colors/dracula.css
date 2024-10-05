@@ -21,10 +21,10 @@
 @define-color shadow #191a21;
 @define-color surface-tint #bd93f9;
 @define-color scrim #191a21;
-@define-color green #50fa7b;
+@define-color clock #ffca80;
 @define-color red #ff5555;
-@define-color cava #6272a4;
-@define-color network #8be9fd;
-@define-color updates #f1fa8c;
+@define-color cava #8be9fd;
+@define-color network #50fa7b;
+@define-color updates #ffca80;
 @define-color playerctl-1 #ff79c6;
 @define-color playerctl-2 #bd93f9;
