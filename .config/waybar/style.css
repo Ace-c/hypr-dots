@@ -114,16 +114,19 @@ box#music-controller {
 /* Cava Waybar style */
 
 box#cava {
-  margin-left: 2px;
-  margin-right: 7px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 10px;
-  background-color: transparent;
-  color: @cava;
-}
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+#cava {
+    color: @cava;
+  }
 
 
 /* Style for General modules */
@@ -193,8 +196,8 @@ box#system-container {
     margin-bottom: 6px;
     padding-left: 11px;
     padding-right: 7px;
-    background-color: alpha(@secondary-container, 0.7);
-    border-radius: 5px;
+    background-color: alpha(@secondary-container, 0.75);
+    border-radius: 7px;
 }
 
 #disk {
@@ -286,9 +289,8 @@ box#clock-container {
   padding-left: 7px;
   padding-right: 7px;
   background-color: alpha(@primary-container, 0.65);
-  color: @network;
+  color: @clock;
   border-radius: 7px;
-  text-shadow: 2 2 2px rgba(0, 0, 0, 1);
 }
 
 
