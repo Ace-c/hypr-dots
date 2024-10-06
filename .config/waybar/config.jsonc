@@ -11,9 +11,11 @@
   "modules-left": [
     "group/launcher",
     "custom/dot-alt",
+    "group/user-container",
+    "custom/dot-fade",
     "group/music-controller",
     "custom/dot-fade",
-    "group/cava",
+    "custom/cava",
     "custom/right-arrw",
     "hyprland/workspaces"
   ],
@@ -120,12 +122,49 @@
         "on-scroll-down": "playerctl volume .05-"
     },
 
-"group/cava": {
+
+ /* User Container */   
+
+"group/user-container": {
   "orientation": "horizontal",
   "modules": [
-    "custom/cava"
+    "load",
+    "privacy"
     ]
 },
+
+"load": {
+    "interval": 10,
+    "format": " Load  {load1}",
+    "max-length": 15
+},
+
+"privacy": {
+	"icon-spacing": 7,
+	"icon-size": 15,
+	"transition-duration": 250,
+	"modules": [
+		{
+			"type": "screenshare",
+			"tooltip": true,
+			"tooltip-icon-size": 24
+		},
+		{
+			"type": "audio-out",
+			"tooltip": true,
+			"tooltip-icon-size": 24
+		},
+		{
+			"type": "audio-in",
+			"tooltip": true,
+			"tooltip-icon-size": 24,
+		}
+	]
+},
+
+
+
+/* Cava */
 
 "custom/cava": {
   "format": {},
@@ -350,7 +389,7 @@
   "clock": {
     "timezone": "Asia/Kolkata",
     "format": "\uDB82\uDD54  {:%I:%M %p}",
-    "format-alt": "{:%d·%m·%y}",
+    "format-alt": "  {:%d·%m·%y}",
     "tooltip-format": "<tt>{calendar}</tt>",
     "calendar": {
       "mode": "month",
