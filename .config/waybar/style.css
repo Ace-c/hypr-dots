@@ -82,7 +82,7 @@ box#music-controller {
   padding-left: 10px;
   padding-right: 10px;
   background-color: alpha(@secondary-container, 0.95);
-  border-radius: 7px;
+  border-radius: 5px;
 }
 
 #custom-playerctl-forward {
@@ -111,22 +111,45 @@ box#music-controller {
     color: @playerctl-1;
 }
 
-/* Cava Waybar style */
+/* User Container style */
 
-box#cava {
+box#user-container {
     margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 9px;
-    margin-bottom: 9px;
+    margin-right: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: transparent;
+    background-color: alpha(@secondary-container, 0.80);
     border-radius: 5px;
   }
 
-#cava {
+#load {
+    padding-left: 0px;
+    padding-right: 10px;
+    font-family: Nunito;
+    color: @network;
+}
+
+box#privacy {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    background-color : alpha(@on-primary, 0.4);
+    color: @red;
+}
+
+/* Cava */
+
+#custom-cava {
+    padding-left: 5px;
+    padding-right: 10px;
     color: @cava;
-  }
+}
 
 
 /* Style for General modules */
@@ -197,7 +220,7 @@ box#system-container {
     padding-left: 11px;
     padding-right: 7px;
     background-color: alpha(@secondary-container, 0.75);
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 #disk {
@@ -289,8 +312,8 @@ box#clock-container {
   padding-left: 7px;
   padding-right: 7px;
   background-color: alpha(@primary-container, 0.65);
-  color: @clock;
-  border-radius: 7px;
+  color: @orange;
+  border-radius: 5px;
 }
 
 
@@ -316,7 +339,7 @@ box#launcher {
     margin-top: 6px;
     margin-bottom: 6px;
     margin-bottom: 5px;
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: alpha(@primary-container, 0.65);
 }
 
