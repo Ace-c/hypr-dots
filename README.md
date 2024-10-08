@@ -2,7 +2,7 @@
 # Themes :
 
     Dracula | Gruv | Nord
-    
+
 
 ## Dracula :
 <table>
@@ -19,7 +19,7 @@
 ## Gruv :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/024c5b02-87f2-4fb9-b66e-08e68903a15e" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/540f82e7-e4ff-4b76-b613-832abdfc9472" width="500" height="220"/></td>
     <td><img src="https://github.com/user-attachments/assets/28fbdbe0-ab7a-41ac-a009-fd622efbf2ee" width="500" height="220"/></td>
   </tr>
   <tr>
@@ -31,7 +31,7 @@
 ## Nord :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/7cce8766-0139-46ab-9e26-1270c2d79bdd" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/afbc5225-fc60-4280-a784-9b9403d72858" width="500" height="220"/></td>
     <td><img src="https://github.com/user-attachments/assets/43237aa5-be18-4591-bc8b-6f9da2f90764" width="500" height="220"/></td>
   </tr>
   <tr>
