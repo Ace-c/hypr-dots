@@ -92,9 +92,10 @@ Following frameworks,tools and apps have theme sync:
 * Cava
 * Firefox
   
- > Added these two optionally, you have to add **switchg.sh** script to **switchmaster.sh** script
+ > Added these two optionally (you have to add **switchg.sh** script to **switchmaster.sh** script)
 * Obsidian
 * Okular
+* Logseq
 
 ## Install following themes for applications :
 
@@ -108,7 +109,7 @@ Install [NvChad](https://nvchad.com/) theme
 
 ### Discord 
 * Install [betterdiscod](https://betterdiscord.app/)
-* Install all [midnight](https://betterdiscord.app/theme/midnight) theme varient
+* Place all the theme files in **BetterDiscord/themes** folder
 
 ### Obsidian
 * Dracula Gemini
