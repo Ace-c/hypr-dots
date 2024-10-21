@@ -113,7 +113,7 @@ Install [NvChad](https://nvchad.com/) theme
 
 ### Logseq
 * Make sure your Logseq vault is at following location : **/Documents/Logseq**
-* And there should file name **custom.css** prsenet in **/Documents/Logseq/logseq**
+* And there should file name **custom.css** present in **/Documents/Logseq/logseq**
 
 ### Obsidian
 * Dracula Gemini
