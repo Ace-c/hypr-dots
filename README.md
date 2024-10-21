@@ -111,12 +111,17 @@ Install [NvChad](https://nvchad.com/) theme
 * Install [betterdiscod](https://betterdiscord.app/)
 * Place all the theme files in **BetterDiscord/themes** folder
 
+### Logseq
+* Make sure your Logseq vault is at following location : **/Documents/Logseq**
+* And there should file name **custom.css** prsenet in **/Documents/Logseq/logseq**
+
 ### Obsidian
 * Dracula Gemini
 * Obsidian Gruvbox
 * Nordic
-  
-NOTE : Do change the location of the appearance.json in script (switchg)
+
+NOTE : Make sure your obsidian vault is at following location **Documents/Obsidian Vault**
+If not then, make change of location in switcg script, it requires **appearance.json** file location 
 
 ### Firefox
 * Install this [Theme](https://github.com/EliverLara/firefox-nordic-theme)
