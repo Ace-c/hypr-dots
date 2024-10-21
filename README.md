@@ -92,7 +92,7 @@ Following frameworks,tools and apps have theme sync:
 * Cava
 * Firefox
   
- > Added these two optionally (you have to add **switchg.sh** script to **switchmaster.sh** script)
+ > Added these three optionally (you have to add **switchg.sh** script to **switchmaster.sh** script)
 * Obsidian
 * Okular
 * Logseq
