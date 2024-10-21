@@ -92,13 +92,13 @@ change_all_themes() {
 # Check command line argument
 case "$1" in
     -d|--dracula)
-        change_all_themes "Dracula" "dracula" "dracula" "dracula"
+        change_all_themes "dracula" "dracula" "dracula" "dracula"
         ;;
     -g|--gruv)
-        change_all_themes "Gruv" "gruvbox_dark" "gruv" "gruv"
+        change_all_themes "gruv" "gruvbox_dark" "gruv" "gruv"
         ;;
     -n|--nord)
-        change_all_themes "midnight (nord)" "nord" "nord" "nord"
+        change_all_themes "nord" "nord" "nord" "nord"
         ;;
     *)
         echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord]"
