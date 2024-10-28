@@ -50,7 +50,7 @@ case "$1" in
         ;;
 esac
 
-# Export nwg-look settings
+# Updating nwg-look themes
+sleep 1
+echo "Updating nwg-look..."
 nwg-look -x
-
-echo "All theme changes have been applied."
