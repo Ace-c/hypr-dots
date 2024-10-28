@@ -35,7 +35,7 @@ change_okular_theme() {
     fi
 }
 
-# Function to change the Logswq theme
+# Function to change the Logseq theme
 change_logseq_theme() {
     local theme="$1"
     local theme_file="$LOGSEQ_THEME_DIR/${theme}.css"
