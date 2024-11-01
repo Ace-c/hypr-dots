@@ -9,7 +9,7 @@ OKULAR_SYMLINK_FILE="$HOME/.config/okularpartrc"
 
 # Logseq theme file location
 LOGSEQ_THEME_DIR="$HOME/.config/logseq-themes"
-LOGSEQ_SYMLINK_FILE="$HOME/Documents/Logseq/logseq/custom.css"
+LOGSEQ_SYMLINK_FILE="$HOME/.logseq/plugins/logseq-flow-nord-theme/nord.css"
 
 
 # Function to change the Obsidian theme
