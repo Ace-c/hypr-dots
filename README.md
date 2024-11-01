@@ -112,8 +112,8 @@ Install [NvChad](https://nvchad.com/) theme
 * Place all the theme files in **BetterDiscord/themes** folder
 
 ### Logseq
-* Make sure your Logseq vault is at following location : **/Documents/Logseq**
-* And there should file name **custom.css** present in **/Documents/Logseq/logseq**
+* Download logseq-flow-nord-theme from store
+* Thats all you have to do...
 
 ### Obsidian
 * Dracula Gemini
