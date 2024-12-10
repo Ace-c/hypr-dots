@@ -1,0 +1,80 @@
+/**
+ * @name everforest
+ * @description A dark, rounded discord theme based on Everforest colors.
+ * @author refact0r, ayu
+ * @version 1.0.1
+ */
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+
+/* customize things here */
+:root {
+    /* font, change to 'gg sans' for default discord font */
+    --font: 'figtree';
+
+    /* top left corner text */
+    --corner-text: 'Everforest';
+
+    /* color of status indicators and window controls */
+    --online-indicator: #b8cb9a; /* Brightened green */
+    --dnd-indicator: #ef9395; /* Brightened red */
+    --idle-indicator: #e5cb99; /* Brightened yellow */
+    --streaming-indicator: #e0b3cd; /* Brightened purple */
+
+    /* accent colors */
+    --accent-1: hsl(151, 35%, 70%); /* Brightened links */
+    --accent-2: hsl(151, 40%, 65%); /* Brightened unread/mention elements */
+    --accent-3: hsl(151, 40%, 65%); /* Brightened accent buttons */
+    --accent-4: hsl(151, 35%, 58%); /* Brightened accent buttons when hovered */
+    --accent-5: hsl(151, 30%, 52%); /* Brightened accent buttons when clicked */
+    --mention: hsla(151, 40%, 65%, 0.1); /* Brightened mentions */
+    --mention-hover: hsla(151, 40%, 65%, 0.05); /* Brightened mentions when hovered */
+
+    /* text colors */
+    --text-0: #3a444a; /* Brightened text on colored elements */
+    --text-1: #e4d7bb; /* Brightened white text */
+    --text-2: #e4d7bb; /* Brightened headings */
+    --text-3: #e4d7bb; /* Brightened normal text */
+    --text-4: #b3bfb6; /* Brightened icon buttons and channels */
+    --text-5: #9da9a0; /* Brightened muted text */
+
+    /* background and dark colors */
+    --bg-1: #525f66; /* Brightened dark buttons when clicked */
+    --bg-2: #485359; /* Brightened dark buttons */
+    --bg-3: #3a444a; /* Brightened spacing, secondary elements */
+    --bg-4: #323a3f; /* Brightened main background */
+    --hover: hsla(180, 12%, 30%, 0.3); /* Brightened hover state */
+    --active: hsla(180, 12%, 30%, 0.5); /* Brightened active state */
+    --message-hover: hsla(0, 0%, 0%, 0.08); /* Softened message hover */
+
+    /* amount of spacing and padding */
+    --spacing: 12px;
+
+    /* animations */
+    /* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
+    --list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
+    --unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
+    --moon-spin-transition: 0.4s ease; /* moon icon spin */
+    --icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
+
+    /* corner roundness (border-radius) */
+    --roundness-xl: 22px; /* roundness of big panel outer corners */
+    --roundness-l: 20px; /* popout panels */
+    --roundness-m: 16px; /* smaller panels, images, embeds */
+    --roundness-s: 12px; /* members, settings inputs */
+    --roundness-xs: 10px; /* channels, buttons */
+    --roundness-xxs: 8px; /* searchbar, small elements */
+
+    /* direct messages moon icon */
+    /* change to block to show, none to hide */
+    --discord-icon: none; /* discord icon */
+    --moon-icon: block; /* moon icon */
+    --moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
+    --moon-icon-size: auto;
+
+    /* filter uncolorable elements to fit theme */
+    /* (just set to none, they're too much work to configure) */
+    --login-bg-filter: none; /* login background artwork */
+    --green-to-accent-3-filter: none; /* add friend page explore icon */
+    --blurple-to-accent-3-filter: none; /* add friend page school icon */
+}
