@@ -1,0 +1,92 @@
+@namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Browser area before a page starts loading */
+    --nordic-browser-before-load-background: #2b3339;
+    /* Toolbars */
+    --nordic-toolbar-background: #232a2e;
+    --nordic-toolbar-color: #d3c6aa;
+    --nordic-toolbar-border-color: #374145;
+    --nordic-inactive-toolbar-background: #2b3339;
+    --nordic-inactive-toolbar-border-color: #374145;
+    /* Sidebar */
+    --nordic-sidebar-background: #2b3339;
+    --nordic-inactive-sidebar-background: #2f383e;
+    /* Popups */
+    --nordic-menu-background: #2b3339;
+    --nordic-menu-border-color: #374145;
+    --nordic-popover-background: #2b3339;
+    --nordic-popover-border-color: #374145;
+    --nordic-popover-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --nordic-popover-button-hover-background: #374145;
+    --nordic-popover-separator-color: rgba(211, 198, 170, 0.1);
+    --nordic-popover-color: #d3c6aa;
+    /* Header bar */
+    --nordic-headerbar-background: #232a2e;
+    --nordic-headerbar-border-color: #374145;
+    --nordic-headerbar-box-shadow: inset 0 1px #374145;
+    --nordic-inactive-headerbar-background: #232a2e;
+    --nordic-inactive-headerbar-border-color: #374145;
+    --nordic-inactive-headerbar-box-shadow: inset 0 1px rgba(211, 198, 170, 0.07);
+    /* Buttons */
+    --nordic-button-background: #2b3339;
+    --nordic-button-border-color: #374145;
+    --nordic-button-border-accent-color: #374145;
+    --nordic-button-box-shadow: transparent;
+    --nordic-button-hover-background: rgba(131, 192, 146, 0.7);
+    --nordic-button-active-background: rgba(131, 192, 146, 0.7);
+    --nordic-button-active-border-color: #374145;
+    --nordic-button-active-border-accent-color: #374145;
+    --nordic-button-active-box-shadow: inset 0 1px rgba(224, 0, 0, 0);
+    --nordic-button-disabled-background: #2f383e;
+    --nordic-button-disabled-border-color: rgba(55, 65, 69, 0.3);
+    --nordic-button-disabled-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    --nordic-inactive-button-background: #2b3339;
+    --nordic-inactive-button-border-color: #374145;
+    --nordic-inactive-button-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    --nordic-button-suggested-action-background: #a7c080;
+    --nordic-button-suggested-action-border-color: #a7c080;
+    --nordic-button-suggested-action-border-accent-color: #374145;
+    --nordic-button-suggested-action-box-shadow: inset 0 1px rgba(255, 255, 255, 0.02), 0 1px 2px rgba(0, 0, 0, 0.07);
+    --nordic-button-suggested-action-hover-background: #b3c890;
+    --nordic-button-suggested-action-active-background: #b3c890;
+    --nordic-button-suggested-action-active-border-color: #374145;
+    --nordic-button-suggested-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    --nordic-button-destructive-action-background: #e67e80;
+    --nordic-button-destructive-action-border-color: #e67e80;
+    --nordic-button-destructive-action-border-accent-color: #374145;
+    --nordic-button-destructive-action-box-shadow: inset 0 1px rgba(255, 255, 255, 0.02), 0 1px 2px rgba(0, 0, 0, 0.07);
+    --nordic-button-destructive-action-hover-background: #e88d8f;
+    --nordic-button-destructive-action-active-background: #e88d8f;
+    --nordic-button-destructive-action-active-border-color: #e88d8f;
+    --nordic-button-destructive-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    /* URL bar */
+    --nordic-urlbar-background: #2b3339;
+    --nordic-urlbar-border-color: #374145;
+    --nordic-urlbar-box-shadow: inset 0 0 0 1px rgba(131, 192, 146, 0);
+    --nordic-urlbar-color: #d3c6aa;
+    --nordic-inactive-urlbar-background: #2b3339;
+    --nordic-inactive-urlbar-border-color: #374145;
+    --nordic-inactive-urlbar-box-shadow: none;
+    --nordic-inactive-urlbar-color: #9da9a0;
+    --nordic-focused-urlbar-border-color: #83c092;
+    --nordic-private-urlbar-background: #d699b6;
+    /* Tabs */
+    --nordic-tabbar-tab-color: #d3c6aa;
+    --nordic-tabbar-tab-hover-background: #374145;
+    --nordic-tabbar-tab-hover-border-bottom-color: #374145;
+    --nordic-tabbar-tab-hover-color: #e4e1cd;
+    --nordic-tabbar-tab-active-background: #374145;
+    --nordic-tabbar-tab-active-border-bottom-color: #e69875;
+    --nordic-tabbar-tab-active-color: #e4e1cd;
+    --nordic-tabbar-tab-active-hover-background: #374145;
+    --nordic-inactive-tabbar-tab-color: #d3c6aa;
+    --nordic-inactive-tabbar-tab-active-background: #2f383e;
+    --nordic-inactive-tabbar-tab-active-border-bottom-color: rgba(230, 152, 117, 0.6);
+    --nordic-inactive-tabbar-tab-active-color: #d3c6aa;
+    /* Switch */
+    --nordic-switch-active-background: #83c092;
+    --nordic-accent: #dbbc7f;
+  }
+}
