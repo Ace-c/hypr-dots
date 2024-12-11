@@ -1,6 +1,6 @@
-Place following Themes here [GTK3/4] 
+Extract and place theme as per name listed below in .themes folder
 
 1. Dracula
 2. Gruvbox-Dark
-3. Lavanda-Sea-Dark
-4. Nordic-darker
+3. Nordic-darker
+4. Everforest-Dark-Soft 
