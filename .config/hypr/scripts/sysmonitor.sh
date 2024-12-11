@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Define the list of commands to check in order of preference
-commands_to_check=("bashtop")
+commands_to_check=("btop")
 
 # Determine the terminal emulator to use
 term=$(cat $HOME/.config/hypr/keybindings.conf | grep ^'$term' | cut -d '=' -f2)

@@ -75,8 +75,11 @@ case "$1" in
     -n|--nord)
         change_all_themes "Nordic" "nord" "nord"
         ;;
+    -e|--everforest)
+        change_all_themes "Everforest" "everforest" "everforest"
+        ;;
     *)
-        echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord]"
+        echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord] [-e|--everforest]"
         exit 1
         ;;
 esac

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Import the existing wallpaper script
+# Importing existing wallpaper script
 SWWW_SCRIPT="${XDG_CONFIG_HOME:-$HOME/.config}/hypr/scripts/swwwallpaper.sh"
 
 # Define wallpaper directories for each theme
@@ -8,6 +8,7 @@ WALLPAPER_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/swww"
 DRACULA_DIR="$WALLPAPER_DIR/dracula"
 GRUV_DIR="$WALLPAPER_DIR/gruv"
 NORD_DIR="$WALLPAPER_DIR/nord"
+EVERFOREST_DIR="$WALLPAPER_DIR/everforest"
 
 # Function to change wallpaper directory and set a wallpaper
 change_wallpaper_theme() {
@@ -41,8 +42,11 @@ case "$1" in
     -n|--nord)
         change_wallpaper_theme "$NORD_DIR"
         ;;
+    -e|--everforest)
+        change_wallpaper_theme "$EVERFOREST_DIR"
+        ;;
     *)
-        echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord]"
+        echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord] [-e|--everforest]"
         exit 1
         ;;
 esac

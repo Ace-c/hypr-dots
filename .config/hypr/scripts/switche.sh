@@ -3,8 +3,8 @@
 # Discord theme file location
 DISCORD_THEME_FILE="$HOME/.config/BetterDiscord/data/stable/themes.json"
 
-# Bashtop configuration file location
-BASHTOP_CONFIG_FILE="$HOME/.config/bashtop/bashtop.cfg"
+# btop configuration file location
+BTOP_CONFIG_FILE="$HOME/.config/btop/btop.conf"
 
 # Dunst config file
 DUNST_CONFIG_FILE="$HOME/.config/dunst/dunstrc"
@@ -35,13 +35,13 @@ change_discord_theme() {
     fi
 }
 
-# Function to change the Bashtop theme
-change_bashtop_theme() {
+# Function to change the btop theme
+change_btop_theme() {
     local theme_name="$1"
     
-    # Update the theme in the Bashtop configuration file
-    sed -i "s|^color_theme=.*|color_theme=\"themes/$theme_name\"|" "$BASHTOP_CONFIG_FILE"
-    echo "Changed Bashtop theme to $theme_name"
+    # Update the theme in the Btop configuration file
+    sed -i "s|^color_theme=.*|color_theme=\"/usr/share/btop/themes/${theme_name}.theme\"|" "$BTOP_CONFIG_FILE"
+    echo "Changed btop theme to $theme_name"
 }
 
 # Function to change the Dunst theme
@@ -74,12 +74,12 @@ change_hyprlock_theme() {
 # Function to change all themes
 change_all_themes() {
     local discord_theme="$1"
-    local bashtop_theme="$2"
+    local btop_theme="$2"
     local dunst_theme="$3"
     local hyprlock_theme="$4"
 
     change_discord_theme "$discord_theme"
-    change_bashtop_theme "$bashtop_theme"
+    change_btop_theme "$btop_theme"
     change_dunst_theme "$dunst_theme"
     change_hyprlock_theme "$hyprlock_theme"
 
@@ -95,13 +95,16 @@ case "$1" in
         change_all_themes "dracula" "dracula" "dracula" "dracula"
         ;;
     -g|--gruv)
-        change_all_themes "gruv" "gruvbox_dark" "gruv" "gruv"
+        change_all_themes "gruv" "gruvbox_dark_v2" "gruv" "gruv"
         ;;
     -n|--nord)
         change_all_themes "nord" "nord" "nord" "nord"
         ;;
+    -e|--everforest)
+        change_all_themes "everforest" "everforest-dark-medium" "everforest" "everforest"
+        ;;
     *)
-        echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord]"
+        echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord] [-e|--everforest]"
         exit 1
         ;;
 esac

@@ -17,6 +17,7 @@ execute_all_scripts() {
         "$HOME/.config/hypr/scripts/switchd.sh"
         "$HOME/.config/hypr/scripts/switche.sh"
         "$HOME/.config/hypr/scripts/switchf.sh"
+        "$HOME/.config/hypr/scripts/switchg.sh"
         "$HOME/.config/hypr/scripts/switchw.sh"
         "$HOME/.config/hypr/scripts/switchc.sh"
 
@@ -44,11 +45,16 @@ case "$1" in
     -n|--nord)
         execute_all_scripts "-n"
         ;;
+    -e|--everforest)
+        execute_all_scripts "-e"
+        ;;
     *)
-        echo "Invalid argument. Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord]"
+        echo "Invalid argument. Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord] [-e|--everforest]"
         exit 1
         ;;
 esac
+
+echo "All theme changes have been applied."
 
 # Updating nwg-look themes
 sleep 1

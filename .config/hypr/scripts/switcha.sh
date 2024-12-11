@@ -9,7 +9,7 @@ change_waybar_gradient() {
 
     case "$theme" in
         "dracula")
-            new_gradient="linear-gradient(70deg, rgb(162, 153, 204) 0%, rgb(107, 93, 148) 50%, rgb(82, 54, 137) 100%);"
+            new_gradient="linear-gradient(70deg, rgb(217, 213, 236) 0%, rgb(123, 110, 161) 50%, rgb(92, 69, 138) 100%);"
             ;;
         "gruv")
             new_gradient="linear-gradient(70deg, rgb(167, 185, 129) 0%, rgb(105, 128, 77) 50%, rgb(66, 83, 27) 100%);"
@@ -17,12 +17,16 @@ change_waybar_gradient() {
         "nord")
             new_gradient="linear-gradient(70deg, rgb(136, 179, 208) 0%, rgb(58, 83, 107) 50%, rgb(43, 55, 66) 100%);"
             ;;
+        "everforest")
+            new_gradient="linear-gradient(70deg, rgb(167, 194, 185) 0%, rgb(75, 95, 87) 50%, rgb(43, 51, 57) 100%);"
+            ;;
     esac
 
     if [ -f "$style_file" ]; then
-        sed -i "s|linear-gradient(70deg, rgb(162, 153, 204) 0%, rgb(107, 93, 148) 50%, rgb(82, 54, 137) 100%);|$new_gradient|g" "$style_file"
+        sed -i "s|linear-gradient(70deg, rgb(217, 213, 236) 0%, rgb(123, 110, 161) 50%, rgb(92, 69, 138) 100%);|$new_gradient|g" "$style_file"
         sed -i "s|linear-gradient(70deg, rgb(167, 185, 129) 0%, rgb(105, 128, 77) 50%, rgb(66, 83, 27) 100%);|$new_gradient|g" "$style_file"
         sed -i "s|linear-gradient(70deg, rgb(136, 179, 208) 0%, rgb(58, 83, 107) 50%, rgb(43, 55, 66) 100%);|$new_gradient|g" "$style_file"
+        sed -i "s|linear-gradient(70deg, rgb(167, 194, 185) 0%, rgb(75, 95, 87) 50%, rgb(43, 51, 57) 100%);|$new_gradient|g" "$style_file"
         echo "Changed Waybar gradient"
     else
         echo "Error: Waybar style file not found"
@@ -40,10 +44,13 @@ change_vscode_theme() {
             new_theme="Dracula Clean"
             ;;
         "gruv")
-            new_theme="Gruvbox Dark Medium"
+            new_theme="Monokai Classic"
             ;;
         "nord")
             new_theme="Nord"
+            ;;
+        "everforest")
+            new_theme="Everforest Dark"
             ;;
     esac
 
@@ -76,8 +83,11 @@ case "$1" in
     -n|--nord)
         change_gradient_and_vscode "nord"
         ;;
+    -e|--everforest)
+        change_gradient_and_vscode "everforest"
+        ;;
     *)
-        echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord]"
+        echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord] [-e|--everforest]"
         exit 1
         ;;
 esac

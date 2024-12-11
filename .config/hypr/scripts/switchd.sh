@@ -8,7 +8,7 @@ QT5CT_CONFIG="$HOME/.config/qt5ct/qt5ct.conf"
 QT6CT_CONFIG="$HOME/.config/qt6ct/qt6ct.conf"
 GTK4_TARGET="$HOME/.config/gtk-4.0"
 
-# Function to change Qt5 icon
+# Function to change Qt5 Icons
 change_qt5_icon() {
     local icon_theme="$1"
     sed -i "/^icon_theme=/c\icon_theme=${icon_theme}" "$QT5CT_CONFIG"
@@ -18,7 +18,7 @@ change_qt5_icon() {
 # Function to change Qt5 theme 
 change_qt5_theme() {
     local theme="$1"
-    sed -i "/^color_scheme_path=/c\color_scheme_path=/home/ayu/.config/qt5ct/colors/${theme}.conf" "$QT5CT_CONFIG"
+    sed -i "/^color_scheme_path=/c\color_scheme_path=/$HOME/.config/qt5ct/colors/${theme}.conf" "$QT5CT_CONFIG"
     echo "Changed Qt5 theme to $theme"
 }
 
@@ -32,7 +32,7 @@ change_qt6_icon() {
 #Function to change Qt6 theme
 change_qt6_theme() {
     local theme="$1"
-    sed -i "/^color_scheme_path=/c\color_scheme_path=/home/ayu/.config/qt5ct/colors/${theme}.conf" "$QT6CT_CONFIG"
+    sed -i "/^color_scheme_path=/c\color_scheme_path=/$HOME/.config/qt5ct/colors/${theme}.conf" "$QT6CT_CONFIG"
     echo "Changed Qt6 theme to $theme"
 }
 
@@ -43,13 +43,16 @@ change_gtk4_theme() {
     
     case "$theme" in
         "Nord")
-            gtk4_source="/home/ayu/.themes/Nordic-darker/gtk-4.0"
+            gtk4_source="/$HOME/.themes/Nordic-darker/gtk-4.0"
             ;;
         "Dracula")
-            gtk4_source="/home/ayu/.themes/Dracula/gtk-4.0"
+            gtk4_source="/$HOME/.themes/Dracula/gtk-4.0"
             ;;
         "Gruvbox")
-            gtk4_source="/home/ayu/.themes/Gruvbox-Dark/gtk-4.0"
+            gtk4_source="/$HOME/.themes/Gruvbox-Dark/gtk-4.0"
+            ;;
+        "Everforest")
+            gtk4_source="/$HOME/.themes/Everforest-Dark-Soft/gtk-4.0"
             ;;
         *)
             echo "Error: Unknown theme $theme"
@@ -94,8 +97,11 @@ case "$1" in
     -n|--nord)
         change_all_themes "Tela-circle-nord" "Tela-circle-nord" "Nord" "Nord" "Nord"
         ;;
+    -e|--everforest)
+        change_all_themes "Nordzy-turquoise-dark" "Nordzy-turquoise-dark" "Everforest" "Everforest" "Everforest"
+        ;;
     *)
-        echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord]"
+        echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord] [-e|--everforest]"
         exit 1
         ;;
 esac
