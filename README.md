@@ -1,7 +1,7 @@
 
 # Themes :
 
-    Dracula | Gruv | Nord
+    Everforest | Gruv | Dracula | Nord 
 
 
 ## Dracula :
@@ -118,6 +118,7 @@ Install [NvChad](https://nvchad.com/) theme
 * Dracula Clean
 * Gruvbox dark medium
 * Nord
+* Everforest Dark
 
 ### Discord 
 * Install [betterdiscod](https://betterdiscord.app/)
@@ -131,6 +132,7 @@ Install [NvChad](https://nvchad.com/) theme
 * Dracula Gemini
 * Obsidian Gruvbox
 * Nordic
+* Everforest
 
 NOTE : Make sure your obsidian vault is at following location **Documents/Obsidian Vault**
 If not then, make change of location in switcg script, it requires **appearance.json** file location 
@@ -145,6 +147,3 @@ If not then, make change of location in switcg script, it requires **appearance.
     maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family
 
 
-## Note : 
-
-* Don't forget to change hyprlock wallpaper location
