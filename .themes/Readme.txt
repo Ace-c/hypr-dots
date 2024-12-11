@@ -1,4 +1,4 @@
-Extract and place theme as per name listed below in .themes folder
+Extract and place theme (as per name listed below, change name if required) in .themes folder
 
 1. Dracula
 2. Gruvbox-Dark
