@@ -53,11 +53,12 @@
 </table>
 
 ## Some riceshots :
+![2024-12-13-212931_hyprshot]()
 
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/e9313a44-4f61-4cd0-a494-2fcc343a38b6" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/c902e9cd-2103-427f-9d5e-c59072296e13" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/18416e98-a8a4-4e1d-aaa9-b44dfb1b179b" width="500" height="220"/></td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/56e64162-9f32-4030-8390-b2502faf0c81" width="500" height=220"/></td>
