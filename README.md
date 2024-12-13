@@ -95,7 +95,7 @@ Following frameworks,tools and apps have theme sync:
 * GTK (2,3,4)
 * VS Code
 * Hyprlock
-* Bashtop
+* Btop
 * Discord
 * Neovim
 * Dunst
