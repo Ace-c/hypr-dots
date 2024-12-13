@@ -4,18 +4,6 @@
     Everforest | Gruv | Dracula | Nord 
 
 
-## Dracula :
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/c934047a-1e7d-43d2-8edb-0664f7502b9a" width="500" height="220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/3fce5c54-d5fe-45f3-9d10-d1ae33ae475c" width="500" height="220"/></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/c418ee5a-b366-4b3f-b563-149421429fb6" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/99cb47a7-4c76-4ca8-a1b3-86dbadfd817d" width="500" height="220"/></td>
-  </tr>
-</table>
-
 ## Everforest :
 <table>
   <tr>
@@ -37,6 +25,18 @@
   <tr>
     <td><img src="https://github.com/user-attachments/assets/469c890c-52c7-4127-9998-1a62b4f85d30" width="500" height=220"/></td>
     <td><img src="https://github.com/user-attachments/assets/fbd8a5f7-4ded-49cd-8e31-b72588955b61" width="500" height="220"/></td>
+  </tr>
+</table>
+
+## Dracula :
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c934047a-1e7d-43d2-8edb-0664f7502b9a" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/3fce5c54-d5fe-45f3-9d10-d1ae33ae475c" width="500" height="220"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c418ee5a-b366-4b3f-b563-149421429fb6" width="500" height=220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/99cb47a7-4c76-4ca8-a1b3-86dbadfd817d" width="500" height="220"/></td>
   </tr>
 </table>
 
