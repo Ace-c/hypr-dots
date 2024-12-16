@@ -139,6 +139,10 @@ If not then, make change of location in switcg script, it requires **appearance.
 * Do change the location of firefox (dark.css file) in script (Switchf)
 * Install [Startpage](https://github.com/migueravila/Bento) or Install this [New-Tab Extenstion](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
 
+## How to change theme from terminal :
+* cd .config/hypr/scripts
+* ./switchmaster.sh -e  [(for everforest) -d (for dracula) -g (for gruv) -n (for nord)]
+
 ## Install following fonts :
 
     maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family
