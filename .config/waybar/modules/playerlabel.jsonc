@@ -1,8 +1,0 @@
-    "custom/playerlabel": {
-        "format": "<span foreground='#ffffff'>🎧  {} 🎧</span>",
-        "return-type": "json",
-        "max-length": 20,
-        "exec": "playerctl -a metadata --format '{\"text\": \"{{artist}} - {{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
-        "on-click": "",
-    },
-
