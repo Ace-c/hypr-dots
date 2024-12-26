@@ -1,0 +1,26 @@
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "rotate": ${r_deg},
+        "all-outputs": true,
+        "active-only": false,
+        "on-click": "activate",
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "一",
+            "2": "二",
+            "3": "三",
+            "4": "十",
+            "5": "五",
+            "6": "六",
+            "7": "七",
+            "8": "八",
+            "9": "九",
+            "10": "十",
+            "urgent": "🌕",
+            "focused": "──",
+            "default": "──"
+     }
+ },
+
+

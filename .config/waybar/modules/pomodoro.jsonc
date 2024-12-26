@@ -1,0 +1,11 @@
+    "custom/pomodoro": {
+      "format": "<span foreground='#df97f7'>{} {icon}</span>",
+      "return-type": "json",
+      "format-icons": {
+        "work": "💼",
+        "break": "",
+      },
+      "exec": "/home/ayu/waybar-module-pomodoro/target/release/waybar-module-pomodoro",
+      "on-click": "/home/ayu/waybar-module-pomodoro/target/release/waybar-module-pomodoro toggle",
+      "on-click-right": "/home/ayu/waybar-module-pomodoro/target/release/waybar-module-pomodoro reset",
+  },
