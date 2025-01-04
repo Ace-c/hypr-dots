@@ -7,7 +7,7 @@
 ## Everforest :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/d913382e-4e15-412e-a918-290b1841e51e" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/73ab2e47-312b-482c-ba04-9f08894df3d3" width="500" height="220"/></td>
     <td><img src="https://github.com/user-attachments/assets/d4178f25-979e-4d7b-8ac5-5915d21ea03b" width="500" height="220"/></td>
   </tr>
   <tr>
