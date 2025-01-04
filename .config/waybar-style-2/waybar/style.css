@@ -1,0 +1,220 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@import "color.css";
+
+window#waybar {
+    background-color: transparent;
+}
+window#waybar > box {
+    min-height: 950px;
+    border-radius: 8px; 
+    border: 0.5px solid @bg; 
+    margin: 0px 8px 12px 8px;
+    background-color:  @bg; 
+    box-shadow: 2px 3px 3px 1px #000000; 
+}
+
+tooltip {
+    background: @bg;
+    color: @fg;
+    border-radius: 5px;
+    border: 1px solid rgba(100, 114, 125, 0.5);
+    padding: 5px 10px;
+    margin: 0;
+}
+
+
+
+/* Left-Modules */
+
+#custom-launcher {
+    font-size: 18px;
+    padding-right: 7px;
+    text-shadow: 5 2 3px rgba(0, 0, 0, 1);
+    color: @arch;
+}
+
+box#launcher {
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: @bg;
+}
+
+#tray {
+
+    border-radius: 2px;
+    margin-top: 15px;
+    padding-left: 2px;
+}
+
+#cpu {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: @fg;
+}
+
+#memory {
+    color: @fg;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: @memory;
+
+}
+
+#temperature {
+    margin-bottom: 10px;
+    color: @fg;
+}
+
+
+
+
+#custom-weather {
+    margin-top: 15px;
+    margin-bottom: 7px;
+    color: @weather;
+    font-size: 12px;
+}
+
+#custom-dots {
+    color: @fg;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+#custom-updates {
+    margin-top: 5px;
+    color: @updates;
+    font-size: 12px;
+}
+
+
+box#playerctl {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: alpha(@container, 0.95);
+    border-radius: 5px;
+  }
+  
+#custom-playerctl-forward {
+    margin-top: 13px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: @playerctl-1;
+}
+#custom-playerctl-play {
+    font-size: 13px;
+    color: @playerctl-2;
+}
+
+#custom-playerctl-backward {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: @playerctl-1;
+}
+
+
+
+/* Workspace style */
+
+#workspaces label {
+    font-size:13px;
+    padding-right: 3px;
+}
+
+#workspaces button {
+    color: alpha(@fg-3, 1);
+    background-color: transparent;
+    border-radius: 10px;
+    animation: ws_normal 20s ease-in-out 1;
+}
+
+#workspaces button.active {
+    color: @workspace;
+    animation: ws_active 20s ease-in-out 1;
+    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+
+
+/* Right Modules */
+
+#backlight-slider, #pulseaudio-slider {
+    margin-top: 10px;
+}
+
+#backlight-slider slider, #pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-color: #4f5b58;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+#backlight-slider trough, #pulseaudio-slider trough {
+    min-height: 100px;
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#backlight-slider highlight, #pulseaudio-slider highlight {
+    min-width: 5px;
+    border: 1px solid @bg;
+    border-radius: 5px;
+    background-color: @bg;
+}
+
+
+#clock.calender {
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: "JetBrainsMono Nerd Font";
+    color: @cal;
+}
+
+
+#clock {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: @clock;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+#custom-power {
+    margin-bottom: 15px;
+    padding-right: 3px;
+    font-size: 18px;
+    color: @red;
+}
+
+#custom-reboot {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-size: 18px;
+    color: #f89d92 ;
+}
+
+#custom-quit {
+    padding-right: 2px;
+    font-size: 17px;
+    color:  #f29dc8;
+}

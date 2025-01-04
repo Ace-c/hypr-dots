@@ -1,0 +1,233 @@
+{
+     
+    "layer": "top",
+    "position": "left",
+    "mod": "dock",
+    "height": 28,
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+
+
+    "modules-left": [
+        "group/launcher",
+        "cpu",
+        "memory",
+        "temperature",
+        "group/playerctl",
+        "custom/weather",
+        "custom/dots",
+        "custom/updates"
+      ],
+
+      "modules-center": [
+        "hyprland/workspaces"
+      ],
+
+      "modules-right": [
+        "pulseaudio/slider",
+        "pulseaudio#audio",
+        "clock#calender",
+        "clock",
+        "group/power"
+      ],
+    
+
+  //  Group Launchers
+
+"group/launcher": {
+  "orientation": "vertical",
+  "drawer": {
+    "transition-duration": 500,
+    "children-class": "not-power,",
+    "transition-left-to-right": true,
+    "click-to-reveal": true
+  },
+  "modules": [
+    "custom/launcher",
+    "tray"
+  ]
+},
+
+"custom/launcher": {
+  "format": "",
+  "tooltip": false
+},
+
+"tray": {
+  "icon-size": 15,
+  "spacing": 7
+},
+
+
+"cpu": {
+  "interval": 1,
+  "format": "{usage:02}%",
+  "rotate": 90,
+},
+
+
+"memory": {
+  "states": {
+      "c": 90, // high
+      "h": 75, // medium
+      "m": 30, // low
+  },
+  "interval": 30,
+  "format": "󰾆",
+  "format-m": "󰾅",
+  "format-h": "󰓅",
+  "format-c": "",
+  "max-length": 10,
+  "tooltip": true,
+  "tooltip-format": "{percentage}%\n{used:0.1f}GB/{total:0.1f}GB"
+},
+
+
+"temperature": {
+  "format": "{temperatureC}°C",
+  "interval": 2,
+  "rotate": 90
+},
+
+"custom/dots": {
+  "format": "",
+  "tooltip": false,
+  "rotate": 90,
+},
+
+"custom/updates": {
+  "exec": "~/.config/hypr/scripts/systemupdate.sh",
+  "return-type": "json",
+  "format": "{}",
+  "interval": 3600,
+  "tooltip": true,
+},
+
+
+"custom/weather": {
+  "format": "{}",
+  "tooltip": true,
+  "interval": 600,
+  "exec": "~/.local/bin/wttrbar --location patna --custom-indicator {temp_C}°C",
+  "return-type": "json",
+  "rotate": 90
+},
+
+
+"group/playerctl": {
+  "orientation": "vertical",
+  "modules": [
+    "custom/playerctl-backward",
+    "custom/playerctl-play",
+    "custom/playerctl-forward"
+    ]
+},
+    "custom/playerctl-backward": {
+        "format": "\uF04A",
+        "tooltip": false,
+        "on-click": "playerctl previous",
+        "rotate": 90,
+
+    },
+    "custom/playerctl-play": {
+        "format": "{icon}",
+        "tooltip": true,
+        "rotate": 90,
+        "return-type": "json",
+        "exec": "playerctl -a metadata --format '{\"text\": \"{{artist}} - {{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+        "on-click": "playerctl play-pause",
+        "format-icons": {
+            "Playing": "<span>\uF04C</span>",
+            "Paused": "<span>\uF04B</span>",
+            "Not-Playing": "",
+        }
+    },
+    "custom/playerctl-forward": {
+        "format": "\uF04E",
+        "tooltip": false,
+        "on-click": "playerctl next",
+        "rotate": 90,
+    },
+
+
+
+  // Hyprland Workspaces 
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "active": "",
+      "default": "",
+    }
+    
+  },
+
+
+// Slider configuration
+  
+  "pulseaudio/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "vertical"
+  },
+
+
+// Calender config
+
+"clock#calender": {
+  "format": "{:%d·%m·%y}",
+  "tooltip": false,
+  "rotate": 90,
+},
+
+// Clock config
+
+ "clock": {
+    "interval": 1,
+    "format": "\n{:%I\n%M}",
+    "tooltip": false,
+ },
+
+
+
+// Power config
+
+"group/power": {
+  "orientation": "vertical",
+  "drawer": {
+    "transition-duration": 500,
+    "children-class": "not-power",
+    "transition-left-to-right": false,
+    "click-to-reveal": true,
+  },
+  "modules": [
+    "custom/power",
+    "custom/quit",
+    "custom/reboot",
+  ]
+},
+"custom/power": {
+   "format": "⏻",
+   "tooltip": false,
+},
+"custom/reboot": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "reboot"
+},
+"custom/quit": {
+    "format": "󰿅",
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exit"
+},
+
+
+}
