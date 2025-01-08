@@ -118,7 +118,7 @@ Install [NvChad](https://nvchad.com/) theme
 * Everforest Dark
 
 ### Discord 
-* Install [betterdiscod](https://betterdiscord.app/)
+* Install [betterdiscord](https://betterdiscord.app/)
 * Place all the theme files in **BetterDiscord/themes** folder
 
 ### Logseq
