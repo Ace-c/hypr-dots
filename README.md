@@ -53,7 +53,6 @@
 </table>
 
 ## Some riceshots :
-![2024-12-13-212931_hyprshot]()
 
 <table>
   <tr>
