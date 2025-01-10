@@ -1,13 +1,15 @@
 
 # Themes :
 
+
     Everforest | Gruv | Dracula | Nord 
+
 
 ## Everforest :
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/73ab2e47-312b-482c-ba04-9f08894df3d3" width="500" height="220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/d4178f25-979e-4d7b-8ac5-5915d21ea03b" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/bbcde443-e26c-43b4-a35c-445fcefdfc3f" width="500" height="220"/></td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/46cc62e4-c63f-43bf-a190-e34d9c417f9a" width="500" height=220"/></td>
