@@ -34,7 +34,6 @@ change_vscode_theme() {
 change_vscode() {
     local theme="$1"
     change_vscode_theme "$theme"
-    # Ensure all changes are written and applied
     sync
     echo "VS Code theme changes have been applied and written to disk."
 }
