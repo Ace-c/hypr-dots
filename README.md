@@ -3,7 +3,6 @@
 
     Everforest | Gruv | Dracula | Nord 
 
-
 ## Everforest :
 <table>
   <tr>
@@ -31,7 +30,7 @@
 ## Dracula :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/c934047a-1e7d-43d2-8edb-0664f7502b9a" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/e60502ab-d500-48da-82a6-6eb681c2e255" width="500" height="220"/></td>
     <td><img src="https://github.com/user-attachments/assets/3fce5c54-d5fe-45f3-9d10-d1ae33ae475c" width="500" height="220"/></td>
   </tr>
   <tr>
@@ -43,7 +42,7 @@
 ## Nord :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/afbc5225-fc60-4280-a784-9b9403d72858" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/642c5a54-9edc-4232-a319-82aad368200d" width="500" height="220"/></td>
     <td><img src="https://github.com/user-attachments/assets/43237aa5-be18-4591-bc8b-6f9da2f90764" width="500" height="220"/></td>
   </tr>
   <tr>
