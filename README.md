@@ -33,7 +33,7 @@
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/e60502ab-d500-48da-82a6-6eb681c2e255" width="500" height="220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/3fce5c54-d5fe-45f3-9d10-d1ae33ae475c" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/41bd0ca1-4054-4445-93e5-f742f2eac294" width="500" height="220"/></td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/c418ee5a-b366-4b3f-b563-149421429fb6" width="500" height=220"/></td>
