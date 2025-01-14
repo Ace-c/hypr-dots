@@ -20,7 +20,7 @@
 ## Gruv :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/efd3d88e-64e1-4dc0-bf84-d3897a3e5243" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/bfd0d2c3-a971-4138-9026-64003a1d2fa2" width="500" height="220"/></td>
     <td><img src="https://github.com/user-attachments/assets/28fbdbe0-ab7a-41ac-a009-fd622efbf2ee" width="500" height="220"/></td>
   </tr>
   <tr>
