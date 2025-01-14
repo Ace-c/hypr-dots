@@ -1,0 +1,385 @@
+* {
+    border: none;
+    font-family: JetBrainsMono Nerd Font, Johanvaaler;
+    font-size: 13px;
+    font-weight: 800;
+    margin-top: -3px;
+    margin-bottom: -3px;
+}
+
+window#waybar {
+    background-color: @transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 0px;
+}
+window#waybar > box {
+    border-radius: 8px; 
+    border: 0.5px solid @outline; 
+    margin: 0px 8px 12px 8px;
+    background-color:  alpha(@background, 0.98); 
+    box-shadow: 4px 4px 4px 3px #000000; 
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#waybar.horizontal {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+tooltip {
+    background: @background;
+    color: @primary;
+    border-radius: 5px;
+    border: 1px solid rgba(100, 114, 125, 0.5);
+    padding: 5px 10px;
+    margin: 0;
+}
+
+
+@import "colors.css";
+
+/* Workspace style */
+
+#workspaces label {
+    font-size: 15px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+#workspaces button {
+    color: alpha(@surface-tint, 0.80);
+    background-color: transparent;
+    border-radius: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    animation: ws_normal 20s ease-in-out 1;
+}
+
+#workspaces button.active {
+    color: @workspace-active;
+    margin-left: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 2px;
+    animation: ws_active 20s ease-in-out 1;
+    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+#taskbar {
+
+}
+
+box#window {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: jura;
+    color: @workspace-active;
+}
+
+
+/* Music controller style */
+
+box#music-controller {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: alpha(@secondary-container, 0.95);
+  border-radius: 5px;
+  border: 0.5px solid @outline;
+}
+
+#custom-playerctl-forward {
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    color: @playerctl-1;
+}
+#custom-playerctl-play {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    color: @playerctl-2;
+}
+
+#custom-playerctl-backward {
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    color: @playerctl-1;
+}
+
+/* User Container style */
+
+box#user-container {
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: alpha(@secondary-container, 0.75);
+    border-radius: 5px;
+    border: 0.5px solid @outline;
+  }
+
+#load {
+    padding-left: 0px;
+    padding-right: 10px;
+    font-family: Nunito;
+    color: @load;
+}
+
+#custom-theme-switcher {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    background-color : alpha(@on-primary, 0.5);
+}
+
+/* Cava */
+
+#custom-cava {
+    padding-left: 5px;
+    padding-right: 10px;
+    color: @cava;
+}
+
+
+/* Style for General modules */
+
+
+#custom-cpuinfo,
+#custom-weather,
+#custom-weather.Icons,
+#memory,
+#network {
+    background-color: @transparent;
+    padding: 0 0px;
+    color: @primary;
+}
+
+#custom-weather.Icons{
+    padding-right: 6px;
+    padding-left: 0px;
+}
+#window {
+    margin: 0 0px;
+    border-radius: 0px;
+    background-color: @background;
+}
+
+
+#network {
+    color: @network;
+    font-family: jura;
+    font-size: 15px;
+    font-weight: 500;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.99);
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+/* Style for separators */
+
+label#custom-dot-alt {
+    color: @primary;
+}
+
+label#custom-dot {
+    color: @surface-variant;
+}
+
+label#custom-dot-fade {
+    color: @surface-variant;
+}
+
+label#custom-left-arrw {
+    color: @primary;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 20px;
+}
+
+
+/* Style for system-container */
+
+box#system-container {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding-left: 11px;
+    padding-right: 7px;
+    background-color: alpha(@secondary-container, 0.80);
+    border-radius: 5px;
+    border: 0.5px solid @outline;
+}
+
+#disk {
+    margin-left: 2px;
+    margin-right: 7px;
+    color: @on-primary-container;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#cpu {
+    margin-left: 7px;
+    margin-right: 7px;
+    color: @on-primary-container;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+#custom-redshift {
+    margin-left: 1px;
+    margin-right: 2px;
+    color: @on-primary-container;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+#pulseaudio{
+    margin-left: 0px;
+    margin-right: 3px;
+    color: @on-primary-container;
+    font-size: 15px;
+    font-weight: 800;
+}
+#custom-updates {
+    margin-left: 0px;
+    margin-right: 3px;
+    color: @on-primary-container;
+    font-size: 15px;
+    font-weight: 800;
+    color: @updates;
+}
+
+#custom-redshift.text{
+    font-size: 10px;
+    font-weight: 800;
+    margin-left: 3px;
+    margin-right: 5px;
+    color: @on-secondary-container;
+}
+
+#cpu.text{
+    font-size: 10px;
+    font-weight: 800;
+    margin-left: 3px;
+    margin-right: 7px;
+    color: @on-secondary-container;
+}
+#disk.text{
+    font-size: 10px;
+    font-weight: 800;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: @on-secondary-container;
+}
+
+#pulseaudio.text{
+    font-size: 10px;
+    font-weight: 800;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: @on-secondary-container;
+}
+
+#custom-updates.text {
+    font-size: 10px;
+    font-weight: 800;
+    margin-left: 3px;
+    margin-right: 5px;
+    color: @on-secondary-container;
+}
+
+/* Clock container */
+
+box#clock-container {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: alpha(@primary-container, 0.65);
+  color: @clock;
+  border-radius: 5px;
+  border: 0.5px solid @outline;
+}
+
+
+label#clock {
+    font-size: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+/* Style for launchers */
+
+#custom-launcher {
+    font-size: 13px;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
+    text-shadow: 2 2 2px rgba(0, 0, 0, 1);
+}
+
+box#launcher {
+    margin-left: 5px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    background-color: alpha(@primary-container, 0.65);
+    border: 0.5px solid @outline;
+}
+
+box#launcher .horizontal {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: @primary-container;
+}
+
+#tray {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 10px;
+    margin-right: 0px;
+    border-radius: 2px;
+}
+
+#privacy {
+    color: @red;
+}
