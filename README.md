@@ -44,7 +44,7 @@
 ## Nord :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/147b4d95-4668-491f-a292-8a5873888e02" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/61ed1910-e7aa-47b1-86c9-a85a298c9ffd" width="500" height="220"/></td>
     <td><img src="https://github.com/user-attachments/assets/43237aa5-be18-4591-bc8b-6f9da2f90764" width="500" height="220"/></td>
   </tr>
   <tr>
