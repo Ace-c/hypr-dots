@@ -32,7 +32,7 @@
 ## Dracula :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/41bd0ca1-4054-4445-93e5-f742f2eac294" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/693eca94-7f67-4a50-b3c7-992eb8714900" width="500" height="220"/></td>
     <td><img src="https://github.com/user-attachments/assets/6d4a92c7-4129-43bb-a1e8-d80cbfe2c31a" width="500" height="220"/></td>
   </tr>
   <tr>
