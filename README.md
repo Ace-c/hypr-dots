@@ -141,6 +141,6 @@ If not then, make change of location in switcg script, it requires **appearance.
 
 ## Install following fonts :
 
-    maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family | Jura
+    Nerd fonts| maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family | Jura
 
 
