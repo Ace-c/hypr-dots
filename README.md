@@ -72,9 +72,9 @@
 # Dependencies :
 
 ## Official 
-    Waybar cava kitty mpv-mpris dunst swww wl-clipboard rofi qt5ct qt6ct nwg-look discord playerctl btop ranger xdotool pcmanfm-qt
+    Waybar kitty mpv-mpris dunst swww wl-clipboard rofi qt5ct qt6ct nwg-look discord playerctl btop ranger xdotool pcmanfm-qt
 ## AUR 
-    hyprshot hyprshade hyprlock wlogout visual-studio-code-bin betterdiscord-installer wttrbar xdotool
+    hyprshot hyprshade hyprlock cava wlogout visual-studio-code-bin betterdiscord-installer wttrbar xdotool
 
 
 
