@@ -40,3 +40,8 @@ kvantum-qt5                                            # svg based qt5 theme eng
 qt5-wayland                                            # wayland support in qt5
 qt6-wayland                                            # wayland support in qt6
 
+# --------------------------------------------------- // Applications
+shotwell                                               # Image viewer
+mpv                                                    # Media player
+visual-studio-code                                     # Code editor     
+amberol                                                # Music player
