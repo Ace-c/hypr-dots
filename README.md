@@ -3,12 +3,12 @@
 
 
     Everforest | Gruv | Dracula | Nord 
-
+    
 
 ## Everforest :
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/987cb9e1-eac4-4488-b082-839829e2a8af" width="500" height="220"/></td>
+    <td><img src="https://github.com/user-attachments/assets/9356384f-663a-4c97-ae38-638e349b44d5" width="500" height="220"/></td>
     <td><img src="https://github.com/user-attachments/assets/7cc335fa-15a4-4472-a9ee-441c59cf0dc3" width="500" height="220"/></td>
   </tr>
   <tr>
