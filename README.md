@@ -77,6 +77,8 @@
     hyprshot hyprshade hyprlock cava wlogout visual-studio-code-bin betterdiscord-installer wttrbar xdotool
 
 
+
+
 # Install following themes for applications :
  
 
@@ -96,8 +98,6 @@ How does theme changes with system theme -
     Everforest Dark
 
 ***
-### Kitty
-### Btop
 
 ### Discord
 
