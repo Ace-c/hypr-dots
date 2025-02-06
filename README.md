@@ -77,31 +77,6 @@
     hyprshot hyprshade hyprlock cava wlogout visual-studio-code-bin betterdiscord-installer wttrbar xdotool
 
 
-
-Following frameworks,tools and apps have theme sync:
-
-* Hyprland
-* Waybar
-* Wlogout
-* Rofi
-* Qt (5,6)
-* GTK (2,3,4)
-* VS Code
-* Hyprlock
-* Btop
-* Discord
-* Neovim
-* Dunst
-* Swww
-* Kitty
-* Cava
-* Firefox
-  
- > Added these three optionally (you have to add **switchg.sh** script to **switchmaster.sh** script)
-* Obsidian
-* Okular
-* Logseq
-
 ## Install following themes for applications :
 
 ### Neovim
