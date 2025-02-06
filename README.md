@@ -77,39 +77,70 @@
     hyprshot hyprshade hyprlock cava wlogout visual-studio-code-bin betterdiscord-installer wttrbar xdotool
 
 
-## Install following themes for applications :
+# Install following themes for applications :
+ 
 
-### Neovim
-Install [NvChad](https://nvchad.com/) theme
+## Neovim
+
+Just Install [NvChad](https://nvchad.com/) theme
+
+How does theme changes with system theme -
+
+***
 
 ### Visual studio code
-* Dracula Clean
-* Gruvbox dark medium
-* Nord
-* Everforest Dark
 
-### Discord 
-* Install [betterdiscord](https://betterdiscord.app/)
-* Place all the theme files in **BetterDiscord/themes** folder
+    Dracula Clean
+    Gruvbox dark medium
+    Nord
+    Everforest Dark
+
+***
+### Kitty
+### Btop
+
+### Discord
+
+    Install [betterdiscord](https://betterdiscord.app/)
+    Place all the theme files in BetterDiscord/themes folder
+
+>**NOTE:** Most of the themes you'll not found there, bcz I made, so you can find in .config dir 
+
+***
 
 ### Logseq
-* Download logseq-flow-nord-theme from store
-* Thats all you have to do...
+
+    Download logseq-flow-nord-theme from store
+    Thats all you have to do...
+
+***
 
 ### Obsidian
-* Dracula Gemini
-* Obsidian Gruvbox
-* Nordic
-* Everforest
 
-NOTE : Make sure your obsidian vault is at following location **Documents/Obsidian Vault**
-If not then, make change of location in switcg script, it requires **appearance.json** file location 
+
+    Dracula Gemini
+    Obsidian Gruvbox
+    Nordic
+    Everforest
+
+NOTE : Make sure your obsidian vault is at following location Documents/Obsidian Vault If not then, make change of location in switcg script, it requires appearance.json file location
+
+***
 
 ### Firefox
-* Install this [Theme](https://github.com/EliverLara/firefox-nordic-theme)
-* Do change the location of firefox (dark.css file) in script (Switchf)
-* Install [Startpage](https://github.com/migueravila/Bento) or Install this [New-Tab Extenstion](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
 
+    Install this Theme : 
+[Firefox-Nordic-Theme](https://github.com/EliverLara/firefox-nordic-theme)
+
+    > Do change the location of firefox (dark.css file) in script (Switchf)
+
+    You have choice to Install either startpage or Bento, Altough you have custiomize it on your own,
+    There is thing here, You you want to sync newtab page with system theme, then Install this one : 
+ [New-Tab Extenstion](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
+
+or If you found Bento is cool then Install here
+ 
+[Startpage](https://github.com/migueravila/Bento)
 ## How to change theme from terminal :
 * cd .config/hypr/scripts
 * ./switchmaster.sh -e  [(for everforest) -d (for dracula) -g (for gruv) -n (for nord)]
