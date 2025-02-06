@@ -24,7 +24,7 @@ jq                                                     # for json processing
 sddm                                                   # display manager for KDE plasma
 
 # --------------------------------------------------- // Window Manager
-hyprland                                               # wlroots-based wayland compositor
+hyprland                                               # wayland compositor
 dunst                                                  # notification daemon
 rofi-wayland                                           # application launcher
 waybar                                                 # system bar
