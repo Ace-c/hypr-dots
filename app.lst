@@ -36,7 +36,7 @@ xdg-desktop-portal-hyprland                            # xdg desktop portal for 
 libnotify                                              # for notifications
 
 # --------------------------------------------------- // Theming
-nwg-look                                               # gtk configuration tool
+nwg-look                                               # gtk3 configuration tool
 qt5ct                                                  # qt5 configuration tool
 qt6ct                                                  # qt6 configuration tool
 kvantum                                                # svg based qt6 theme engine
