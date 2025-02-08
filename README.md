@@ -74,7 +74,7 @@
 ## Official 
     Waybar kitty mpv-mpris dunst swww wl-clipboard rofi qt5ct qt6ct nwg-look discord playerctl btop ranger xdotool pcmanfm-qt
 ## AUR 
-    hyprshot hyprshade hyprlock cava wlogout visual-studio-code-bin betterdiscord-installer wttrbar xdotool
+    qt5-styleplugins hyprshot hyprshade hyprlock cava wlogout visual-studio-code-bin betterdiscord-installer wttrbar xdotool
 
 
 
