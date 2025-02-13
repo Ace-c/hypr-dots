@@ -95,7 +95,7 @@ NOTE : Make sure your obsidian vault is at following location Documents/Obsidian
 [Firefox-Nordic-Theme](https://github.com/EliverLara/firefox-nordic-theme)
 
 
-    > Change the location of firefox (dark.css file) in script (Switchf)
+> Change the location of firefox (dark.css file) in script (Switch7)
     
 You you want to sync newtab page with system theme, Install this addon : 
 [New-Tab Extenstion](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
