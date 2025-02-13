@@ -92,8 +92,8 @@ NOTE : Make sure your obsidian vault is at following location Documents/Obsidian
 
 ### Firefox
 
-    Install this Theme : 
 [Firefox-Nordic-Theme](https://github.com/EliverLara/firefox-nordic-theme)
+
 
     > Change the location of firefox (dark.css file) in script (Switchf)
     
