@@ -63,7 +63,6 @@
 
 Just Install [NvChad](https://nvchad.com/) theme
 
-How does theme changes with system theme -
 
 ***
 
