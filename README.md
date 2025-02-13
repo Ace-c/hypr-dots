@@ -78,7 +78,7 @@ How does theme changes with system theme -
 
 ### Discord
 
-    Install [betterdiscord](https://betterdiscord.app/)
+    Install betterdiscord
 
 
 ***
@@ -96,6 +96,7 @@ How does theme changes with system theme -
     Obsidian Gruvbox
     Nordic
     Everforest
+    Everblush
 
 NOTE : Make sure your obsidian vault is at following location Documents/Obsidian Vault If not then, make change of location in switcg script, it requires appearance.json file location
 
@@ -108,13 +109,9 @@ NOTE : Make sure your obsidian vault is at following location Documents/Obsidian
 
     > Change the location of firefox (dark.css file) in script (Switchf)
     
-You have choice to Install either startpage or Bento, Altough you have custiomize it on your own,
-There is thing here, You you want to sync newtab page with system theme, then Install this one : 
- [New-Tab Extenstion](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
+You you want to sync newtab page with system theme, Install this addon : 
+[New-Tab Extenstion](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
 
-or If you found Bento is cool then Install here
- 
-[Startpage](https://github.com/migueravila/Bento)
 
 ## How to change theme from terminal :
 * cd .config/hypr/scripts
