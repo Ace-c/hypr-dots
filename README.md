@@ -2,7 +2,7 @@
 # Themes :
 
 
-    Everblush | Everforest | Gruv | Dracula | Nord 
+    Everblush | Everforest | Gruvbox | Dracula | Nord 
     
 
 ## Everforest :
