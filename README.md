@@ -87,7 +87,7 @@
 # Install following themes for applications :
  
 
-## Neovim
+### Neovim
 
 Just Install [NvChad](https://nvchad.com/) theme
 
