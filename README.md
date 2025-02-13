@@ -79,14 +79,13 @@ Just Install [NvChad](https://nvchad.com/) theme
 
 ### Obsidian
 
-
     Dracula Gemini
     Obsidian Gruvbox
     Nordic
     Everforest
     Everblush
 
-NOTE : Make sure your obsidian vault is at following location Documents/Obsidian Vault If not then, make change of location in switcg script, it requires appearance.json file location
+> NOTE : Make sure to change your obsidian vault location in the script (script7), it requires appearance.json file location
 
 ***
 
