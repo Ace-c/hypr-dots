@@ -72,6 +72,7 @@ Just Install [NvChad](https://nvchad.com/) theme
     Gruvbox dark medium
     Nord
     Everforest Dark
+    Everblush
 
 ***
 
