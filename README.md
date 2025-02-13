@@ -76,6 +76,11 @@
 ## AUR 
     qt5-styleplugins hyprshot hyprshade hyprlock cava wlogout visual-studio-code-bin betterdiscord-installer wttrbar xdotool
 
+## Install following fonts :
+
+    Nerd fonts | maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family | Jura
+
+
 
 
 
@@ -102,17 +107,14 @@ How does theme changes with system theme -
 ### Discord
 
     Install [betterdiscord](https://betterdiscord.app/)
-    Place all the theme files in BetterDiscord/themes folder
 
->**NOTE:** Most of the themes you'll not found there, bcz I made, so you can find in .config dir 
 
 ***
 
 ### Logseq
 
     Download logseq-flow-nord-theme from store
-    Thats all you have to do...
-
+    
 ***
 
 ### Obsidian
@@ -132,21 +134,16 @@ NOTE : Make sure your obsidian vault is at following location Documents/Obsidian
     Install this Theme : 
 [Firefox-Nordic-Theme](https://github.com/EliverLara/firefox-nordic-theme)
 
-    > Do change the location of firefox (dark.css file) in script (Switchf)
-
-    You have choice to Install either startpage or Bento, Altough you have custiomize it on your own,
-    There is thing here, You you want to sync newtab page with system theme, then Install this one : 
+    > Change the location of firefox (dark.css file) in script (Switchf)
+    
+You have choice to Install either startpage or Bento, Altough you have custiomize it on your own,
+There is thing here, You you want to sync newtab page with system theme, then Install this one : 
  [New-Tab Extenstion](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
 
 or If you found Bento is cool then Install here
  
 [Startpage](https://github.com/migueravila/Bento)
+
 ## How to change theme from terminal :
 * cd .config/hypr/scripts
 * ./switchmaster.sh -e  [(for everforest) -d (for dracula) -g (for gruv) -n (for nord)]
-
-## Install following fonts :
-
-    Nerd fonts | maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family | Jura
-
-
