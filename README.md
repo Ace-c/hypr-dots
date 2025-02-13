@@ -6,16 +6,77 @@
     
 
 ## Everforest :
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/9356384f-663a-4c97-ae38-638e349b44d5" width="500" height="220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/7cc335fa-15a4-4472-a9ee-441c59cf0dc3" width="500" height="220"/></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/46cc62e4-c63f-43bf-a190-e34d9c417f9a" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/21c1e881-44ee-4d04-ba11-661bb1a72ed9" width="500" height="220"/></td>
-  </tr>
-</table>
+<html>
+<head>
+    <style>
+        .image-grid {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .image-container {
+            width: 50%;
+            padding: 10px;
+            position: relative;
+        }
+        
+        .aspect-ratio-box {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625) */
+        }
+        
+        .responsive-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .image-container {
+                width: 100%;
+                display: block;
+            }
+            
+            table, tbody, tr {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table class="image-grid">
+        <tr>
+            <td class="image-container">
+                <div class="aspect-ratio-box">
+                    <img class="responsive-image" src="https://github.com/user-attachments/assets/9356384f-663a-4c97-ae38-638e349b44d5" alt="Image 1">
+                </div>
+            </td>
+            <td class="image-container">
+                <div class="aspect-ratio-box">
+                    <img class="responsive-image" src="https://github.com/user-attachments/assets/7cc335fa-15a4-4472-a9ee-441c59cf0dc3" alt="Image 2">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="image-container">
+                <div class="aspect-ratio-box">
+                    <img class="responsive-image" src="https://github.com/user-attachments/assets/46cc62e4-c63f-43bf-a190-e34d9c417f9a" alt="Image 3">
+                </div>
+            </td>
+            <td class="image-container">
+                <div class="aspect-ratio-box">
+                    <img class="responsive-image" src="https://github.com/user-attachments/assets/21c1e881-44ee-4d04-ba11-661bb1a72ed9" alt="Image 4">
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
 
 ## Gruv :
 <table>
