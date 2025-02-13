@@ -25,18 +25,6 @@
 |---|---|
 | ![Image 3](https://github.com/user-attachments/assets/c1c94429-b722-4ca6-8963-63aaa1c78e14) | ![Image 4](https://github.com/user-attachments/assets/1b82d660-19f8-407d-9088-85604d0a4592) |
 
-## Some riceshots :
-
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/56e64162-9f32-4030-8390-b2502faf0c81" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/52a774ec-8c87-4688-afd4-51522495b199" width="500" height="220"/></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/b00428d0-eda8-4f57-88ba-4c88eb473c76" width="500" height=220"/></td>
-    <td><img src="https://github.com/user-attachments/assets/c4f1df63-e734-48a1-9070-a24ccf53129f" width="500" height="220"/></td>
-  </tr>
-</table>
 
 
 
