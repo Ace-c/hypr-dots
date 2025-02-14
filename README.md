@@ -37,7 +37,7 @@
 ## AUR 
     qt5-styleplugins hyprshot hyprshade hyprlock cava wlogout visual-studio-code-bin betterdiscord-installer wttrbar xdotool
 
-## Install following fonts :
+## Fonts :
 
     Nerd fonts | maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family | Jura
 
