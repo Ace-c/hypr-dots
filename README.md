@@ -20,7 +20,7 @@
 | ![Image 3](https://github.com/user-attachments/assets/df3519ef-bfdd-4faa-b5a0-46e4f95f000a) | ![Image 4](https://github.com/user-attachments/assets/06989278-ec35-45a4-9a61-7f1f5c9b8a27) |
 
 ## Dracula
-| ![Image 1](https://github.com/user-attachments/assets/693eca94-7f67-4a50-b3c7-992eb8714900) | ![Image 2](https://github.com/user-attachments/assets/6d4a92c7-4129-43bb-a1e8-d80cbfe2c31a) |
+| ![Image 1](https://github.com/user-attachments/assets/7fb2f079-492f-4c61-a927-3bf2498ca119) | ![Image 2](https://github.com/user-attachments/assets/1a91f670-ca3f-4a73-8e5d-fbdd92b741af) |
 |---|---|
 | ![Image 3](https://github.com/user-attachments/assets/c418ee5a-b366-4b3f-b563-149421429fb6) | ![Image 4](https://github.com/user-attachments/assets/99cb47a7-4c76-4ca8-a1b3-86dbadfd817d) |
 
