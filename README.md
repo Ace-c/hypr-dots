@@ -26,7 +26,7 @@
 | ![Image 3](https://github.com/user-attachments/assets/c1c94429-b722-4ca6-8963-63aaa1c78e14) | ![Image 4](https://github.com/user-attachments/assets/1b82d660-19f8-407d-9088-85604d0a4592) |
 
 
-
+&nbsp;
 
 
 # Dependencies :
@@ -40,8 +40,6 @@
 
     Nerd fonts | maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family | Jura
 
-
-<br><br>
 
 
 # Install following themes for applications :
