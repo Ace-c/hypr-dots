@@ -104,4 +104,7 @@ You you want to sync newtab page with system theme, Install this addon :
 ## How to change theme from terminal :
 
 ``` cd .config/hypr/scripts ```
-```./switchmaster.sh -e  [-e(everforest) -d(dracula) -g(gruv) -n(nord) -b(everblush)] ```
+
+```
+./switchmaster.sh -e  [-e(everforest) -d(dracula) -g(gruv) -n(nord) -b(everblush)]
+```
