@@ -29,8 +29,7 @@
 &nbsp;
 &nbsp;
 &nbsp;
-
-
+&nbsp;
 
 
 # Dependencies :
@@ -44,7 +43,9 @@
 
     Nerd fonts | maple mono | IBM Plex Sans | JetbrainsMono Nerd | History Yenifer | Johanvaaler | Monokai | Syne-family | Jura
 
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 # Install following themes for applications :
  
