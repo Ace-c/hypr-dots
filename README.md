@@ -2,7 +2,6 @@
 # Themes :
 
     Everblush | Everforest | Gruvbox | Dracula | Nord 
-    
 
 
 ## Everblush :
@@ -16,7 +15,7 @@
 | ![Image 3](https://github.com/user-attachments/assets/46cc62e4-c63f-43bf-a190-e34d9c417f9a) | ![Image 4](https://github.com/user-attachments/assets/21c1e881-44ee-4d04-ba11-661bb1a72ed9) |
 
 ## Gruv
-| ![Image 1](https://github.com/user-attachments/assets/e2c2c4e0-e7e4-4185-a5e7-b5762a1d56fe) | ![Image 2](https://github.com/user-attachments/assets/e3f68658-3ded-424a-bc4d-94822af2f979) |
+| ![Image 1](https://github.com/user-attachments/assets/e2c2c4e0-e7e4-4185-a5e7-b5762a1d56fe) | ![Image 2](https://github.com/user-attachments/assets/06989278-ec35-45a4-9a61-7f1f5c9b8a27) |
 |---|---|
 | ![Image 3](https://github.com/user-attachments/assets/df3519ef-bfdd-4faa-b5a0-46e4f95f000a) | ![Image 4](https://github.com/user-attachments/assets/943adfd9-5f7d-4d99-8797-d6d41827177d) |
 
