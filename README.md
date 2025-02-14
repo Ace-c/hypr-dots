@@ -102,6 +102,7 @@ Just Install [NvChad](https://nvchad.com/) theme
 You you want to sync newtab page with system theme, Install this addon : 
 [New-Tab Extenstion](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
 
+&nbsp;
 
 ## How to change theme from terminal :
 
