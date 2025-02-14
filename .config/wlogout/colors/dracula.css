@@ -1,0 +1,10 @@
+@define-color bar-bg rgba(0, 0, 0, 0);
+
+@define-color main-bg #282a36;
+@define-color main-fg #f8f8f2;
+
+@define-color focus-bg #44475a;
+@define-color focus-fg #f8f8f2;
+
+@define-color hvr-bg #896fad;
+@define-color hvr-fg #000000;
