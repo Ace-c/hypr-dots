@@ -1,0 +1,443 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 40,
+  "margin-top": 0,
+  "margin-left": 0,
+  "margin-bottom": 0,
+  "margin-right": 0,
+  "spacing": 0,
+
+  "modules-left": [
+    "group/launcher",
+    "custom/dot-alt",
+    "group/user-container",
+    "custom/dot-fade",
+    "group/music-controller",
+    "network#up",
+    "network#down",
+    "custom/right-arrw",
+    "custom/cava",
+    "custom/right-arrw",
+    "hyprland/workspaces"
+  ],
+  "modules-center": [],
+  "modules-right": [
+    
+    "custom/weather",
+    "custom/dot",
+    "custom/cpuinfo",
+    "custom/dot",
+    "memory",
+    "custom/dot",
+    "network",
+    "custom/left-arrw",
+    "group/system-container",
+    "custom/dot-alt",
+    "group/clock-container"
+  ],
+
+
+/*  Group Launchers  */
+
+  "group/launcher": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "children-class": "launcher,",
+      "transition-left-to-right": true,
+      "click-to-reveal": true
+    },
+    "modules": [
+      "custom/launcher",
+      "tray"
+    ]
+  },
+
+  "custom/launcher": {
+    "format": "  ",
+    "tooltip": false
+  },
+
+  "tray": {
+    "icon-size": 20,
+    "spacing": 7
+  },
+
+
+
+/* Music Controller */
+
+"group/music-controller": {
+  "orientation": "horizontal",
+  "modules": [
+    "custom/playerctl-backward",
+    "custom/playerctl-play",
+    "custom/playerctl-forward"
+    ]
+},
+    "custom/playerctl-backward": {
+        "format": "\uF04A",
+        "tooltip": false,
+        "on-click": "playerctl previous",
+        "on-scroll-up": "playerctl volume .05+",
+        "on-scroll-down": "playerctl volume .05-"
+    },
+    "custom/playerctl-play": {
+        "format": "{icon}",
+        "return-type": "json",
+        "exec": "playerctl -a metadata --format '{\"text\": \"{{artist}} - {{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl volume .05+",
+        "on-scroll-down": "playerctl volume .05-",
+        "format-icons": {
+            "Playing": "<span>\uF04C</span>",
+            "Paused": "<span>\uF04B</span>",
+            "Stopped": "<span>\uF04B</span>"
+        }
+    },
+    "custom/playerctl-forward": {
+        "format": "\uF04E",
+        "tooltip": false,
+        "on-click": "playerctl next",
+        "on-scroll-up": "playerctl volume .05+",
+        "on-scroll-down": "playerctl volume .05-"
+    },
+
+
+ /* User Container */   
+
+"group/user-container": {
+  "orientation": "horizontal",
+  "modules": [
+    "load",
+    "custom/theme-switcher"
+    ]
+},
+
+"load": {
+    "interval": 10,
+    "format": " Load  {load1}",
+    "max-length": 15
+},
+
+"custom/theme-switcher": {
+  "format": "󰬁󰫵󰫲󱎥󰫲󱎤",
+  "tooltip-format": "Switch Themes",
+  "on-click": "~/.config/hypr/scripts/themeswitcher.sh"
+},
+
+
+/* Network bandwidth  */
+
+"network#up": {
+  "format": "{bandwidthUpBytes:>3}",
+  "tooltip": false,
+  "interval": 2
+},
+
+"network#down": {
+  "format": "{bandwidthDownBytes:>3}",
+  "tooltip": false,
+  "interval": 2
+},
+
+
+/* Cava */
+
+"custom/cava": {
+  "format": {},
+  "tooltip": false,
+  "exec": "~/.config/hypr/scripts/cava.sh"
+},
+
+
+/* Hyprland Workspaces */
+
+  "hyprland/workspaces": {
+    "all-outputs": false,
+    "active-only": false,
+    "on-click": "activate",
+    "format": "{icon}",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "format-icons": {
+      "1": "󰸳",
+      "2": "󰸳",
+      "3": "󰸳",
+      "4": "󰸳",
+      "5": "󰸳",
+      "6": "󰸳",
+      "7": "󰸳",
+      "8": "󰸳",
+      "9": "󰸳",
+      "10": "󰸳",
+      "urgent": "",
+      "default": "󰸳"
+    }
+  },
+
+
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"icon-size": 16,
+		"icon-theme": "Tela-circle-dracula",
+        "spacing": 0,
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+		"ignore-list": [
+			"Alacritty"
+		],
+		"app_ids-mapping": {
+			"firefoxdeveloperedition": "firefox-developer-edition"
+		}
+	},
+
+  "hyprland/window": {
+    "format": " {}",
+    "separate-outputs": true,
+    "rewrite": {
+        "(.*)${USER}@${set_sysname}:(.*)": "$1  :$2",
+        "(.*) — Mozilla Firefox": "$1 ",
+        "(.*)Mozilla Firefox": "$1 Firefox ",
+        "(.*) - Visual Studio Code": "$1 ",
+        "(.*)Visual Studio Code": "$1 Code ",
+        "(.*) - Discord": "$1  ",
+        "(.*?)-\\s*YouTube(.*)": "$1", 
+        "(.*?\\s)YouTube(.*)": "$1YouTube "
+    },
+    "max-length": 50
+},
+
+
+
+/*  General Modules  */
+
+
+  "custom/cpuinfo": {
+    "exec": " ~/.config/hypr/scripts/cpuinfo.sh",
+    "return-type": "json",
+    "format": "󰫰󰫽󰬂{}",
+    "interval": 5,
+    "tooltip": true,
+    "max-length": 1000
+  },
+
+  "memory": {
+    "interval": 30,
+    "format": "󰫺󰫲󰫺 {used}GB",
+    "max-length": 10,
+    "tooltip": true,
+    "tooltip-format": "   {percentage}%\n {used:0.1f}GB/{total:0.1f}GB \n {swapUsed}GB/{swapTotal}GB"
+  },
+
+  "network": {
+    "format-wifi": "   On-Air ",
+    "format-ethernet": "<span font_desc='13' rise='-4000'>󪥈</span> <span rise='-2000'>Ethernet</span> ",
+    "tooltip": false,
+    "format-disconnected": "\uDB81\uDDAA ",
+  },
+
+    "custom/weather": {
+    "format": "󰬁󰫲󰫺󰫽 {}°C",
+    "tooltip": true,
+    "interval": 600,
+    "exec": "~/.local/bin/wttrbar --location patna --custom-indicator {temp_C}",
+    "return-type": "json"
+  },
+
+  "custom/weather#Icons": {
+    "format": "<span font_desc='13' rise='8000'>{} </span>",
+    "tooltip": false,
+    "interval": 3600,
+    "exec": "~/.local/bin/wttrbar --location patna --custom-indicator {ICON}",
+    "return-type": "json"
+  },
+
+/*  Group System-container  */
+
+  "group/system-container": {
+    "orientation": "horizontal",
+    "modules": [
+      "group/updates-grp",
+      "group/pulseaudio-grp",
+      "group/disk-grp",
+      "group/redshift-grp",
+      "group/cpu-grp"
+    ]
+  },
+
+  "group/updates-grp": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/updates",
+      "custom/updates#text"
+    ]
+  },
+  "group/pulseaudio-grp": {
+    "orientation": "horizontal",
+    "modules": [
+      "pulseaudio",
+      "pulseaudio#text"
+    ]
+  },
+  "group/disk-grp": {
+    "orientation": "horizontal",
+    "modules": [
+      "disk",
+      "disk#text"
+    ]
+  },
+  "group/redshift-grp": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/redshift",
+      "custom/redshift#text"
+    ]
+  },
+  "group/cpu-grp": {
+    "orientation": "horizontal",
+    "modules": [
+      "cpu",
+      "cpu#text"
+    ]
+  },
+
+  "pulseaudio#text": {
+    "tooltip": false,
+    "format": "<b>{volume}</b> ",
+    "format-bluetooth": "<b>{volume}</b> "
+  },
+  "pulseaudio": {
+    "format": "{icon}",
+    "format-muted": "\uDB6A\uDD11",
+    "on-click": "pavucontrol -t 3",
+    "on-click-middle": "~/.config/hypr/scripts/volumecontrol.sh -o m",
+    "on-scroll-up": "~/.config/hypr/scripts/volumecontrol.sh -o i",
+    "on-scroll-down": "~/.config/hypr/scripts/volumecontrol.sh -o d",
+    "tooltip-format": "{icon} {desc} // {volume}%",
+    "scroll-step": 5,
+    "format-icons": {
+      "headphone": "\uDB6A\uDD46",
+      "hands-free": "\uDB6A\uDD25",
+      "headset": "\uDB6A\uDD46",
+      "phone": "\uDB6A\uDD25",
+      "portable": "\uDB6A\uDD25",
+      "car": "\uDB6A\uDD2C",
+      "default": ["󪤦", "\uDB6A\uDD26", "\uDB6A\uDD12"]
+    }
+  },
+
+  "custom/updates": {
+    "format": "\uDB6A\uDD54",
+    "tooltip": false
+  },
+  "custom/updates#text": {
+    "exec": "~/.config/hypr/scripts/systemupdate.sh",
+    "return-type": "json",
+    "format": "{} ",
+    "interval": 86400,
+    "tooltip": true
+  },
+
+  "custom/redshift": {
+    "format": "\uD83D\uDD04",
+    "on-click": "hyprshade on ~/.config/hypr/shaders/vibrant.glsl",
+    "tooltip": false
+  },
+  "custom/redshift#text": {
+    "format": "{}",
+    "return-type": "json",
+    "exec": " ~/.config/hypr/scripts/shaders.sh",
+    "on-click": "~/.config/hypr/scripts/shaders.sh r && pkill -RTMIN+8 waybar",
+    "on-click-right": " ~/.config/hypr/scripts/shaders.sh v && pkill -RTMIN+8 waybar",
+    "tooltip-format": "Hyprshade",
+    "signal": 8,
+    "interval": 1
+  },
+
+  "cpu": {
+    "format": "\uDB80\uDF5B",
+    "tooltip": false
+},
+
+  "cpu#text": {
+    "interval": 2,
+    "format": "{usage:02}%"
+ },
+
+
+  "disk": {
+    "format": "\uDB80\uDD2B",
+    "tooltip": false
+  },
+  "disk#text": {
+    "interval": 60,
+    "format": "{percentage_used}%",
+    "path": "/"
+},
+
+/*  Group Clock container  */
+
+  "group/clock-container": {
+    "orientation": "horizontal",
+    "modules": [
+      "clock"
+    ]
+  },
+
+
+  "clock": {
+    "timezone": "Asia/Kolkata",
+    "format": "\uDB82\uDD54  {:%I:%M %p}",
+    "format-alt": "  {:%d·%m·%y}",
+    "tooltip-format": "<tt>{calendar}</tt>",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#5e5e5e'><b>{}</b></span>"
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-click-forward": "tz_up",
+      "on-click-backward": "tz_down",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  },
+
+/*  Separators  */
+
+  "custom/dot-fade": {
+    "format": " \uF444 ",
+    "tooltip": false
+  },
+  "custom/dot": {
+    "format": "   ",
+    "tooltip": false
+  },
+  "custom/dot-alt": {
+    "format": "  ",
+    "tooltip": false
+  },
+  "custom/left-arrw": {
+    "format": "󪤗 ",
+    "tooltip": false
+  },
+  "custom/right-arrw": {
+    "format": "󪤖",
+    "tooltip": false
+  },
+  "custom/arrow-dec": {
+    "format": "󪥜",
+    "tooltip": false
+  }
+}
+

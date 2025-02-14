@@ -1,0 +1,34 @@
+@define-color background #1f2229;
+@define-color on-background #eceff4;
+
+@define-color primary #88c0d0;
+@define-color on-primary #333945;
+
+@define-color secondary #81a1c1;
+@define-color on-secondary #2e3440;
+
+@define-color primary-container #292F3A;
+@define-color on-primary-container #88c0d0;
+
+@define-color secondary-container #292F3A;
+@define-color on-secondary-container #e5e9f0;
+
+@define-color workspace #88c0d0;
+@define-color workspace-active #a7c98f;
+
+@define-color outline #4c566a;
+
+@define-color surface-variant #3b4252;
+@define-color on-surface-variant #d8dee9;
+@define-color surface-tint #88c0d0;
+
+@define-color load #de8a92;
+@define-color clock #a0e0eb;
+@define-color red #bf616a;
+@define-color cava #8fbcbb;
+@define-color updates #d9ce91;
+@define-color network #c7d991;
+@define-color playerctl-1 #ebcb8b;
+@define-color playerctl-2 #d08770;
+@define-color upload #a7c080;
+@define-color download #d699b6;

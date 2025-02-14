@@ -1,0 +1,22 @@
+@define-color bg #1d2129;
+@define-color container #2e3440;
+
+@define-color fg #d8dee9;
+@define-color fg-1 #ffffff;
+
+@define-color arch #a9cef5;
+@define-color memory #7ba3d4;
+@define-color themes #e0afd7;
+@define-color weather #c7eda8;
+
+@define-color workspace #596378;
+@define-color workspace-active #88c0d0;
+
+@define-color slider #393b34;
+@define-color slider-highlight #ebcb8b;
+@define-color calender #a4dedd;
+@define-color clock #c7eda8;
+@define-color power #ed7b86;
+
+@define-color logout #ebcb8b;
+@define-color reboot #e09c87;
