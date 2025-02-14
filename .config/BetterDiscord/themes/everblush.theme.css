@@ -1,0 +1,80 @@
+/**
+ * @name everblush
+ * @description A dark, rounded discord theme based on Everblush colors.
+ * @author ayu, refact0r
+ * @version 1.0.0
+ */
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+
+/* customize things here */
+:root {
+    /* font, change to 'gg sans' for default discord font */
+    --font: 'figtree';
+    
+    /* top left corner text */
+    --corner-text: 'Everblush';
+    
+    /* color of status indicators and window controls */
+    --online-indicator: #8ccf7e;    /* Green */
+    --dnd-indicator: #e57474;       /* Red */
+    --idle-indicator: #e5c76b;      /* Yellow */
+    --streaming-indicator: #c47fd5;  /* Purple */
+    
+    /* accent colors */
+    --accent-1: hsl(160, 28%, 59%); /* Links */
+    --accent-2: hsl(160, 33%, 54%); /* Unread/mention elements */
+    --accent-3: hsl(160, 33%, 54%); /* Accent buttons */
+    --accent-4: hsl(160, 28%, 47%); /* Accent buttons when hovered */
+    --accent-5: hsl(160, 23%, 40%); /* Accent buttons when clicked */
+    --mention: hsla(160, 33%, 54%, 0.1); /* Mentions */
+    --mention-hover: hsla(160, 33%, 54%, 0.05); /* Mentions when hovered */
+    
+    /* text colors */
+    --text-0: #141b1e;              /* Text on colored elements */
+    --text-1: #dadada;              /* White text */
+    --text-2: #dadada;              /* Headings */
+    --text-3: #dadada;              /* Normal text */
+    --text-4: #b3b9b8;              /* Icon buttons and channels */
+    --text-5: #9da9a0;              /* Muted text */
+    
+    /* background and dark colors */
+    --bg-1: #232a2d;                /* Dark buttons when clicked */
+    --bg-2: #1c2326;                /* Dark buttons */
+    --bg-3: #141b1e;                /* Spacing, secondary elements */
+    --bg-4: #0e1214;                /* Main background */
+    --hover: hsla(193, 20%, 10%, 0.3);    /* Hover state */
+    --active: hsla(193, 20%, 10%, 0.5);   /* Active state */
+    --message-hover: hsla(0, 0%, 0%, 0.08); /* Message hover */
+    
+    /* amount of spacing and padding */
+    --spacing: 12px;
+    
+    /* animations */
+    /* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
+    --list-item-transition: 0.2s ease;      /* channels/members/settings hover transition */
+    --unread-bar-transition: 0.2s ease;     /* unread bar moving into view transition */
+    --moon-spin-transition: 0.4s ease;      /* moon icon spin */
+    --icon-spin-transition: 1s ease;        /* round icon button spin */
+    
+    /* corner roundness (border-radius) */
+    --roundness-xl: 22px;   /* roundness of big panel outer corners */
+    --roundness-l: 20px;    /* popout panels */
+    --roundness-m: 16px;    /* smaller panels, images, embeds */
+    --roundness-s: 12px;    /* members, settings inputs */
+    --roundness-xs: 10px;   /* channels, buttons */
+    --roundness-xxs: 8px;   /* searchbar, small elements */
+    
+    /* direct messages moon icon */
+    /* change to block to show, none to hide */
+    --discord-icon: none;   /* discord icon */
+    --moon-icon: block;     /* moon icon */
+    --moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg');
+    --moon-icon-size: auto;
+    
+    /* filter uncolorable elements to fit theme */
+    /* (just set to none, they're too much work to configure) */
+    --login-bg-filter: none;             /* login background artwork */
+    --green-to-accent-3-filter: none;    /* add friend page explore icon */
+    --blurple-to-accent-3-filter: none;  /* add friend page school icon */
+}
