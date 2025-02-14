@@ -2,7 +2,6 @@
 # Themes :
 
     Everblush | Everforest | Gruvbox | Dracula | Nord 
-![2025-02-14-133232_hyprshot]()
 
 
 ## Everblush :
