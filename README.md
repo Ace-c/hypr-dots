@@ -15,7 +15,7 @@
 | ![Image 3](https://github.com/user-attachments/assets/46cc62e4-c63f-43bf-a190-e34d9c417f9a) | ![Image 4](https://github.com/user-attachments/assets/21c1e881-44ee-4d04-ba11-661bb1a72ed9) |
 
 ## Gruv
-| ![Image 1](https://github.com/user-attachments/assets/bfd0d2c3-a971-4138-9026-64003a1d2fa2) | ![Image 2](https://github.com/user-attachments/assets/28fbdbe0-ab7a-41ac-a009-fd622efbf2ee) |
+| ![Image 1](https://github.com/user-attachments/assets/3c9b53ad-8ea5-4373-9241-e6753f80ec77) | ![Image 2](https://github.com/user-attachments/assets/28fbdbe0-ab7a-41ac-a009-fd622efbf2ee) |
 |---|---|
 | ![Image 3](https://github.com/user-attachments/assets/469c890c-52c7-4127-9998-1a62b4f85d30) | ![Image 4](https://github.com/user-attachments/assets/fbd8a5f7-4ded-49cd-8e31-b72588955b61) |
 
