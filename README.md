@@ -25,13 +25,12 @@
 | ![Image 3](https://github.com/user-attachments/assets/c418ee5a-b366-4b3f-b563-149421429fb6) | ![Image 4](https://github.com/user-attachments/assets/99cb47a7-4c76-4ca8-a1b3-86dbadfd817d) |
 
 ## Nord
-| ![Image 1](https://github.com/user-attachments/assets/61ed1910-e7aa-47b1-86c9-a85a298c9ffd) | ![Image 2](https://github.com/user-attachments/assets/51fc0aff-0b88-4258-b1ea-7ddf19b6d770) |
+| ![Image 1](https://github.com/user-attachments/assets/6580fc9c-0d58-41b6-8d78-8c25e24cd674) | ![Image 2](https://github.com/user-attachments/assets/064ac630-5edd-462b-86a1-e942ec4b57b9) |
 |---|---|
 | ![Image 3](https://github.com/user-attachments/assets/c1c94429-b722-4ca6-8963-63aaa1c78e14) | ![Image 4](https://github.com/user-attachments/assets/1b82d660-19f8-407d-9088-85604d0a4592) |
 
 
 &nbsp;
-
 
 
 
