@@ -7,7 +7,7 @@
 ## Everblush :
 | ![Image 1](https://github.com/user-attachments/assets/a7dc23e9-0822-4f89-90e7-7ff89b3ccf39) | ![Image 2](https://github.com/user-attachments/assets/d59d3137-7e1a-4279-ad51-a11ba87e7e99) |
 |---|---|
-| ![Image 3](https://github.com/user-attachments/assets/4c633058-98a8-4730-bbf1-48400d80ff72) | ![Image 4](https://github.com/user-attachments/assets/617ed146-6d94-4ef1-90fc-731a499e0f36) |
+| ![Image 3](https://github.com/user-attachments/assets/a8e022dc-228f-43d5-a5f7-3080e51ded58) | ![Image 4](https://github.com/user-attachments/assets/617ed146-6d94-4ef1-90fc-731a499e0f36) |
 
 ## Everforest :
 | ![Image 1](https://github.com/user-attachments/assets/9356384f-663a-4c97-ae38-638e349b44d5) | ![Image 2](https://github.com/user-attachments/assets/7cc335fa-15a4-4472-a9ee-441c59cf0dc3) |
