@@ -113,8 +113,10 @@ You you want to sync newtab page with system theme, Install this addon :
 ./switchmaster.sh -e  [-e(everforest) -d(dracula) -g(gruv) -n(nord) -b(everblush)]
 ```
 
+&nbsp;
 ## Switch Waybar Style :
 
-<kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd><kbd>↓</kbd>    To switch waybar style
+<kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd><kbd>↓</kbd>  |  To switch waybar style
+&nbsp;
 <kbd>ctrl</kbd> + <kbd>esc</kbd>   To hide/unhide waybar
 
