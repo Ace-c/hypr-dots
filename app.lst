@@ -16,14 +16,13 @@ blueman                                                # bluetooth manager gui
 brightnessctl                                          # screen brightness control
 udiskie                                                # manage removable media
 pacman-contrib                                         # for system update check
-python-pyamdgpuinfo                                    # for amd gpu info
 parallel                                               # for parallel processing
 jq                                                     # for json processing
 
 # --------------------------------------------------- // Display Manager
 sddm                                                   # display manager for KDE plasma
 
-# --------------------------------------------------- // Window Manager
+# --------------------------------------------------- // Window Manager & Ecosystem
 hyprland                                               # wayland compositor
 dunst                                                  # notification daemon
 rofi-wayland                                           # application launcher
@@ -31,7 +30,7 @@ waybar                                                 # system bar
 swww                                                   # wallpaper
 wlogout                                                # logout menu
 cliphist                                               # clipboard manager
-polkit-lxqt                                           # authentication agent
+polkit-lxqt                                            # authentication agent
 xdg-desktop-portal-hyprland                            # xdg desktop portal for hyprland
 libnotify                                              # for notifications
 
@@ -39,6 +38,7 @@ libnotify                                              # for notifications
 nwg-look                                               # gtk3 configuration tool
 qt5ct                                                  # qt5 configuration tool
 qt6ct                                                  # qt6 configuration tool
+qt5-styleplugins                                       # Extra styles for qt5
 kvantum                                                # svg based qt6 theme engine
 kvantum-qt5                                            # svg based qt5 theme engine
 qt5-wayland                                            # wayland support in qt5
@@ -46,7 +46,13 @@ qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
 shotwell                                               # Image viewer
-mpv                                                    # Media player
-visual-studio-code                                     # Code editor     
+mpv | vlc                                              # Media player
+visual-studio-code | Neovim                            # Code editor     
 amberol                                                # Music player
 trash-cli                                              # Trash management
+Firefox                                                # Browser
+Logseq                                                 # Knowledge Management
+Kitty                                                  # Terminal
+Obsidian                                               # Note taking
+Okular                                                 # Pdf & ebook-Reader
+PCManFM-Qt                                             # File Manager
