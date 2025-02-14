@@ -115,5 +115,6 @@ You you want to sync newtab page with system theme, Install this addon :
 
 ## Switch Waybar Style :
 
-<kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd><kbd>↓</kbd>
+<kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd><kbd>↓</kbd>    To switch waybar style
+<kbd>ctrl</kbd> + <kbd>esc</kbd>   To hide/unhide waybar
 
