@@ -15,9 +15,9 @@
 | ![Image 3](https://github.com/user-attachments/assets/46cc62e4-c63f-43bf-a190-e34d9c417f9a) | ![Image 4](https://github.com/user-attachments/assets/21c1e881-44ee-4d04-ba11-661bb1a72ed9) |
 
 ## Gruv
-| ![Image 1](https://github.com/user-attachments/assets/3c9b53ad-8ea5-4373-9241-e6753f80ec77) | ![Image 2](https://github.com/user-attachments/assets/28fbdbe0-ab7a-41ac-a009-fd622efbf2ee) |
+| ![Image 1](https://github.com/user-attachments/assets/d8a4604b-67a7-4410-82f6-ff7c8999ff4f) | ![Image 2](https://github.com/user-attachments/assets/f1adf45c-9c17-4376-b971-be0eec19f894) |
 |---|---|
-| ![Image 3](https://github.com/user-attachments/assets/469c890c-52c7-4127-9998-1a62b4f85d30) | ![Image 4](https://github.com/user-attachments/assets/fbd8a5f7-4ded-49cd-8e31-b72588955b61) |
+| ![Image 3](https://github.com/user-attachments/assets/b3bf6a43-5e68-4e9e-b599-2d0159b10c68) | ![Image 4](https://github.com/user-attachments/assets/943adfd9-5f7d-4d99-8797-d6d41827177d) |
 
 ## Dracula
 | ![Image 1](https://github.com/user-attachments/assets/693eca94-7f67-4a50-b3c7-992eb8714900) | ![Image 2](https://github.com/user-attachments/assets/6d4a92c7-4129-43bb-a1e8-d80cbfe2c31a) |
