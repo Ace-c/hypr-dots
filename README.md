@@ -4,6 +4,7 @@
     Everblush | Everforest | Gruvbox | Dracula | Nord 
     
 
+
 ## Everblush :
 | ![Image 1](https://github.com/user-attachments/assets/a7dc23e9-0822-4f89-90e7-7ff89b3ccf39) | ![Image 2](https://github.com/user-attachments/assets/d59d3137-7e1a-4279-ad51-a11ba87e7e99) |
 |---|---|
@@ -15,9 +16,9 @@
 | ![Image 3](https://github.com/user-attachments/assets/46cc62e4-c63f-43bf-a190-e34d9c417f9a) | ![Image 4](https://github.com/user-attachments/assets/21c1e881-44ee-4d04-ba11-661bb1a72ed9) |
 
 ## Gruv
-| ![Image 1](https://github.com/user-attachments/assets/d8a4604b-67a7-4410-82f6-ff7c8999ff4f) | ![Image 2](https://github.com/user-attachments/assets/f1adf45c-9c17-4376-b971-be0eec19f894) |
+| ![Image 1](https://github.com/user-attachments/assets/da061fad-1d9f-48ba-9e29-7d3002e97b4e) | ![Image 2](https://github.com/user-attachments/assets/f1adf45c-9c17-4376-b971-be0eec19f894) |
 |---|---|
-| ![Image 3](https://github.com/user-attachments/assets/b3bf6a43-5e68-4e9e-b599-2d0159b10c68) | ![Image 4](https://github.com/user-attachments/assets/943adfd9-5f7d-4d99-8797-d6d41827177d) |
+| ![Image 3](https://github.com/user-attachments/assets/df3519ef-bfdd-4faa-b5a0-46e4f95f000a) | ![Image 4](https://github.com/user-attachments/assets/943adfd9-5f7d-4d99-8797-d6d41827177d) |
 
 ## Dracula
 | ![Image 1](https://github.com/user-attachments/assets/693eca94-7f67-4a50-b3c7-992eb8714900) | ![Image 2](https://github.com/user-attachments/assets/6d4a92c7-4129-43bb-a1e8-d80cbfe2c31a) |
