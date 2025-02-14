@@ -1,0 +1,110 @@
+@namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dracula color palette - with darker backgrounds */
+    --dracula-background: #1a1b24;        /* Darker than original #282a36 */
+    --dracula-current-line: #2d2e3d;      /* Darker than original #44475a */
+    --dracula-selection: #363848;         /* Darker than original #44475a */
+    --dracula-foreground: #f8f8f2;        /* Kept original */
+    --dracula-comment: #2a2f41;           /* Darker than original #3e465e */
+    --dracula-cyan: #8be9fd;              /* Kept original */
+    --dracula-green: #50fa7b;             /* Kept original */
+    --dracula-orange: #ffb86c;            /* Kept original */
+    --dracula-pink: #ff79c6;              /* Kept original */
+    --dracula-purple: #bd93f9;            /* Kept original */
+    --dracula-red: #ff5555;               /* Kept original */
+    --dracula-yellow: #f1fa8c;            /* Kept original */
+
+    /* Custom darker shades for subtle highlights */
+    --dracula-dark-purple: #2f2c3c;       /* Darker than original */
+    --dracula-darker-purple: #242130;     /* Darker than original */
+
+    /* Browser area before a page starts loading */
+    --nordic-browser-before-load-background: var(--dracula-background);
+    /* Toolbars */
+    --nordic-toolbar-background: var(--dracula-background);
+    --nordic-toolbar-color: var(--dracula-foreground);
+    --nordic-toolbar-border-color: var(--dracula-current-line);
+    --nordic-inactive-toolbar-background: var(--dracula-current-line);
+    --nordic-inactive-toolbar-border-color: var(--dracula-current-line);
+    /* Sidebar */
+    --nordic-sidebar-background: var(--dracula-background);
+    --nordic-inactive-sidebar-background: var(--dracula-current-line);
+    /* Popups */
+    --nordic-menu-background: var(--dracula-background);
+    --nordic-menu-border-color: var(--dracula-current-line);
+    --nordic-popover-background: var(--dracula-background);
+    --nordic-popover-border-color: var(--dracula-current-line);
+    --nordic-popover-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    --nordic-popover-button-hover-background: var(--dracula-selection);
+    --nordic-popover-separator-color: var(--dracula-comment);
+    --nordic-popover-color: var(--dracula-foreground);
+    /* Header bar */
+    --nordic-headerbar-background: var(--dracula-background);
+    --nordic-headerbar-border-color: var(--dracula-current-line);
+    --nordic-headerbar-box-shadow: inset 0 1px var(--dracula-current-line);
+    --nordic-inactive-headerbar-background: var(--dracula-background);
+    --nordic-inactive-headerbar-border-color: var(--dracula-current-line);
+    --nordic-inactive-headerbar-box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
+    /* Buttons */
+    --nordic-button-background: var(--dracula-current-line);
+    --nordic-button-border-color: var(--dracula-dark-purple);
+    --nordic-button-border-accent-color: var(--dracula-dark-purple);
+    --nordic-button-box-shadow: transparent;
+    --nordic-button-hover-background: var(--dracula-dark-purple);
+    --nordic-button-active-background: var(--dracula-dark-purple);
+    --nordic-button-active-border-color: var(--dracula-darker-purple);
+    --nordic-button-active-border-accent-color: var(--dracula-darker-purple);
+    --nordic-button-active-box-shadow: inset 0 1px rgba(224, 0, 0, 0);
+    --nordic-button-disabled-background: var(--dracula-comment);
+    --nordic-button-disabled-border-color: rgba(98, 114, 164, 0.3);
+    --nordic-button-disabled-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    --nordic-inactive-button-background: var(--dracula-background);
+    --nordic-inactive-button-border-color: var(--dracula-current-line);
+    --nordic-inactive-button-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    --nordic-button-suggested-action-background: var(--dracula-green);
+    --nordic-button-suggested-action-border-color: var(--dracula-dark-purple);
+    --nordic-button-suggested-action-border-accent-color: var(--dracula-current-line);
+    --nordic-button-suggested-action-box-shadow: inset 0 1px rgba(255, 255, 255, 0.02), 0 1px 2px rgba(0, 0, 0, 0.07);
+    --nordic-button-suggested-action-hover-background: var(--dracula-cyan);
+    --nordic-button-suggested-action-active-background: var(--dracula-cyan);
+    --nordic-button-suggested-action-active-border-color: var(--dracula-current-line);
+    --nordic-button-suggested-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    --nordic-button-destructive-action-background: var(--dracula-red);
+    --nordic-button-destructive-action-border-color: var(--dracula-dark-purple);
+    --nordic-button-destructive-action-border-accent-color: var(--dracula-current-line);
+    --nordic-button-destructive-action-box-shadow: inset 0 1px rgba(255, 255, 255, 0.02), 0 1px 2px rgba(0, 0, 0, 0.07);
+    --nordic-button-destructive-action-hover-background: var(--dracula-orange);
+    --nordic-button-destructive-action-active-background: var(--dracula-orange);
+    --nordic-button-destructive-action-active-border-color: var(--dracula-orange);
+    --nordic-button-destructive-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    /* URL bar */
+    --nordic-urlbar-background: var(--dracula-background);
+    --nordic-urlbar-border-color: var(--dracula-dark-purple);
+    --nordic-urlbar-box-shadow: inset 0 0 0 1px var(--dracula-dark-purple);
+    --nordic-urlbar-color: var(--dracula-foreground);
+    --nordic-inactive-urlbar-background: var(--dracula-background);
+    --nordic-inactive-urlbar-border-color: var(--dracula-current-line);
+    --nordic-inactive-urlbar-box-shadow: none;
+    --nordic-inactive-urlbar-color: var(--dracula-foreground);
+    --nordic-focused-urlbar-border-color: var(--dracula-dark-purple);
+    --nordic-private-urlbar-background: var(--dracula-purple);
+    /* Tabs */
+    --nordic-tabbar-tab-color: var(--dracula-foreground);
+    --nordic-tabbar-tab-hover-background: var(--dracula-selection);
+    --nordic-tabbar-tab-hover-border-bottom-color: var(--dracula-dark-purple);
+    --nordic-tabbar-tab-hover-color: var(--dracula-foreground);
+    --nordic-tabbar-tab-active-background: var(--dracula-current-line);
+    --nordic-tabbar-tab-active-border-bottom-color: var(--dracula-dark-purple);
+    --nordic-tabbar-tab-active-color: var(--dracula-foreground);
+    --nordic-tabbar-tab-active-hover-background: var(--dracula-selection);
+    --nordic-inactive-tabbar-tab-color: var(--dracula-comment);
+    --nordic-inactive-tabbar-tab-active-background: var(--dracula-current-line);
+    --nordic-inactive-tabbar-tab-active-border-bottom-color: var(--dracula-comment);
+    --nordic-inactive-tabbar-tab-active-color: var(--dracula-foreground);
+    /* Switch */
+    --nordic-switch-active-background: var(--dracula-green);
+    --nordic-accent: var(--dracula-dark-purple);
+  }
+}

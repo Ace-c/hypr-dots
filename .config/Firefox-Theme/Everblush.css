@@ -1,0 +1,104 @@
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Background colors with extra dark variants */
+    --nordic-browser-before-load-background: #141b1e;
+    --nordic-darker-background-1: #0e1214;
+    --nordic-darker-background-2: #0a0d0f;
+
+    /* Main colors */
+    --nordic-toolbar-background: #141b1e;
+    --nordic-toolbar-color: #dadada;
+    --nordic-toolbar-border-color: #232a2d;
+    --nordic-inactive-toolbar-background: #141b1e;
+    --nordic-inactive-toolbar-border-color: #232a2d;
+
+    /* Sidebar */
+    --nordic-sidebar-background: #141b1e;
+    --nordic-inactive-sidebar-background: #232a2d;
+
+    /* Popups */
+    --nordic-menu-background: #141b1e;
+    --nordic-menu-border-color: #232a2d;
+    --nordic-popover-background: #141b1e;
+    --nordic-popover-border-color: #232a2d;
+    --nordic-popover-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --nordic-popover-button-hover-background: #232a2d;
+    --nordic-popover-separator-color: rgba(218, 218, 218, 0.1);
+    --nordic-popover-color: #dadada;
+
+    /* Header bar */
+    --nordic-headerbar-background: #141b1e;
+    --nordic-headerbar-border-color: #232a2d;
+    --nordic-headerbar-box-shadow: inset 0 1px #232a2d;
+    --nordic-inactive-headerbar-background: #141b1e;
+    --nordic-inactive-headerbar-border-color: #232a2d;
+    --nordic-inactive-headerbar-box-shadow: inset 0 1px rgba(218, 218, 218, 0.07);
+
+    /* Buttons */
+    --nordic-button-background: #141b1e;
+    --nordic-button-border-color: #232a2d;
+    --nordic-button-border-accent-color: #232a2d;
+    --nordic-button-box-shadow: transparent;
+    --nordic-button-hover-background: rgba(140, 207, 126, 0.7);
+    --nordic-button-active-background: rgba(140, 207, 126, 0.7);
+    --nordic-button-active-border-color: #232a2d;
+    --nordic-button-active-border-accent-color: #232a2d;
+    --nordic-button-active-box-shadow: inset 0 1px rgba(224, 0, 0, 0);
+    --nordic-button-disabled-background: #232a2d;
+    --nordic-button-disabled-border-color: rgba(35, 42, 45, 0.3);
+    --nordic-button-disabled-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    --nordic-inactive-button-background: #141b1e;
+    --nordic-inactive-button-border-color: #232a2d;
+    --nordic-inactive-button-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+
+    /* Action Buttons */
+    --nordic-button-suggested-action-background: #8ccf7e;
+    --nordic-button-suggested-action-border-color: #8ccf7e;
+    --nordic-button-suggested-action-border-accent-color: #232a2d;
+    --nordic-button-suggested-action-box-shadow: inset 0 1px rgba(255, 255, 255, 0.02), 0 1px 2px rgba(0, 0, 0, 0.07);
+    --nordic-button-suggested-action-hover-background: #9ed490;
+    --nordic-button-suggested-action-active-background: #9ed490;
+    --nordic-button-suggested-action-active-border-color: #232a2d;
+    --nordic-button-suggested-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+
+    --nordic-button-destructive-action-background: #e57474;
+    --nordic-button-destructive-action-border-color: #e57474;
+    --nordic-button-destructive-action-border-accent-color: #232a2d;
+    --nordic-button-destructive-action-box-shadow: inset 0 1px rgba(255, 255, 255, 0.02), 0 1px 2px rgba(0, 0, 0, 0.07);
+    --nordic-button-destructive-action-hover-background: #e98484;
+    --nordic-button-destructive-action-active-background: #e98484;
+    --nordic-button-destructive-action-active-border-color: #e98484;
+    --nordic-button-destructive-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+
+    /* URL bar */
+    --nordic-urlbar-background: #141b1e;
+    --nordic-urlbar-border-color: #232a2d;
+    --nordic-urlbar-box-shadow: inset 0 0 0 1px rgba(140, 207, 126, 0);
+    --nordic-urlbar-color: #dadada;
+    --nordic-inactive-urlbar-background: #141b1e;
+    --nordic-inactive-urlbar-border-color: #232a2d;
+    --nordic-inactive-urlbar-box-shadow: none;
+    --nordic-inactive-urlbar-color: #b3b9b8;
+    --nordic-focused-urlbar-border-color: #8ccf7e;
+    --nordic-private-urlbar-background: #c47fd5;
+
+    /* Tabs */
+    --nordic-tabbar-tab-color: #dadada;
+    --nordic-tabbar-tab-hover-background: #232a2d;
+    --nordic-tabbar-tab-hover-border-bottom-color: #232a2d;
+    --nordic-tabbar-tab-hover-color: #ffffff;
+    --nordic-tabbar-tab-active-background: #232a2d;
+    --nordic-tabbar-tab-active-border-bottom-color: #67b0e8;
+    --nordic-tabbar-tab-active-color: #ffffff;
+    --nordic-tabbar-tab-active-hover-background: #232a2d;
+    --nordic-inactive-tabbar-tab-color: #dadada;
+    --nordic-inactive-tabbar-tab-active-background: #232a2d;
+    --nordic-inactive-tabbar-tab-active-border-bottom-color: rgba(103, 176, 232, 0.6);
+    --nordic-inactive-tabbar-tab-active-color: #dadada;
+
+    /* Switch */
+    --nordic-switch-active-background: #8ccf7e;
+    --nordic-accent: #e5c76b;
+  }
+}
