@@ -1,0 +1,32 @@
+[Type-1]
+ summary = "t1"
+ format = "<b>%a</b>"
+ background = "#0e1214"
+ foreground = "#b3b9b8"
+
+[Type-2]
+ summary = "t2"
+ format = "<span size="250%">%a</span>\n%b"
+ background = "#141b1e"
+ foreground = "#b3b9b8"
+
+[urgency_low]
+ background = "#141b1e"
+ foreground = "#dadada"
+ frame_color = "#232a2d"
+ highlight = "#8ccf7e"
+ timeout = 3
+
+[urgency_normal]
+ background = "#141b1e"
+ foreground = "#dadada"
+ frame_color = "#232a2d"
+ highlight = "#8ccf7e"
+ timeout = 5
+
+[urgency_critical]
+ background = "#141b1e"
+ foreground = "#e57474"
+ frame_color = "#232a2d"
+ highlight = "#8ccf7e"
+ timeout = 10
