@@ -66,7 +66,6 @@ change_all_themes() {
 }
 
 
-# Check command line argument
 case "$1" in
     -d|--dracula)
         change_all_themes "dracula" "dracula"
