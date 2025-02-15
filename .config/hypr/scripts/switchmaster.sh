@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Check if an argument is provided
 if [ $# -eq 0 ]; then
     echo "Usage: $0 [-d|--dracula] [-g|--gruv] [-n|--nord] [-e|--everforest] [-b|--everblush]"
     exit 1
@@ -10,7 +9,7 @@ fi
 execute_all_scripts() {
     local arg="$1"
     
-    # List of all your theme switching scripts
+    # Importing all theme switching scripts
     scripts=(
         "$HOME/.config/hypr/scripts/switch1.sh"
         "$HOME/.config/hypr/scripts/switch2.sh"
@@ -33,7 +32,7 @@ execute_all_scripts() {
     done
 }
 
-# Parse command line arguments
+# Argument
 case "$1" in
     -d|--dracula)
         execute_all_scripts "-d"
