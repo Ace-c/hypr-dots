@@ -26,7 +26,6 @@ fi
 echo $$ > "$lockFile"
 trap cleanup EXIT
 
-# Define core functions for wallpaper management
 Wall_Update() {
     local x_wall="$1"
     local theme_name="$2"
@@ -55,7 +54,7 @@ Wall_Update() {
     # Update wallpaper control file
     echo "source-file|${theme_name}|${x_wall}" > "${XDG_CONFIG_HOME:-$HOME/.config}/swww/wall.ctl"
     
-    # Create symlinks for active wallpaper
+    # Create symlinks for active wall
     ln -fs "${x_wall}" "${XDG_CONFIG_HOME:-$HOME/.config}/swww/wall.set"
     ln -fs "${cache_dir}/${cacheImg}.rofi" "${XDG_CONFIG_HOME:-$HOME/.config}/swww/wall.rofi"
     ln -fs "${cache_dir}/${cacheImg}.blur" "${XDG_CONFIG_HOME:-$HOME/.config}/swww/wall.blur"
@@ -102,7 +101,7 @@ Wall_Set() {
         --transition-pos "$( hyprctl cursorpos )"
 }
 
-# Handle different theme directories
+
 WALLPAPER_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/swww"
 declare -A THEME_DIRS=(
     ["dracula"]="$WALLPAPER_DIR/dracula"
@@ -112,7 +111,7 @@ declare -A THEME_DIRS=(
     ["everblush"]="$WALLPAPER_DIR/everblush"
 )
 
-# Parse command line options
+
 while getopts "t:nps:" option; do
     case $option in
         t) # Set theme
@@ -148,8 +147,5 @@ while getopts "t:nps:" option; do
     esac
 done
 
-# Initialize swww if needed
 swww query || swww init
-
-# Set the wallpaper
 Wall_Set
