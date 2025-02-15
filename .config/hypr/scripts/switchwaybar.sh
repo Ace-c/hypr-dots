@@ -42,7 +42,7 @@ setup_color_theme() {
     fi
 }
 
-# Function to switch waybar style
+# Logic
 switch_waybar() {
     local style=$1
     
@@ -64,7 +64,7 @@ switch_waybar() {
     echo "Switched to $(basename $(dirname $style)) with theme $current_theme"
 }
 
-# Main script logic
+# Argument
 case "$1" in
     "-h")
         switch_waybar "$STYLE1"
