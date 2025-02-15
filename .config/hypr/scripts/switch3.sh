@@ -32,7 +32,7 @@ change_wallpaper_theme() {
     "$SWWW_SCRIPT" -s "$wallpaper"
 }
  
-# Check command line argument
+
 case "$1" in
     -d|--dracula)
         change_wallpaper_theme "$DRACULA_DIR"
