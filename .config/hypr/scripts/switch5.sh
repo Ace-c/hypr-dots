@@ -73,7 +73,7 @@ change_all_themes() {
     echo "All theme changes have been applied and written to disk."
 }
 
-# Check command line argument
+
 case "$1" in
     -d|--dracula)
         change_all_themes "dracula" "dracula" "dracula"
