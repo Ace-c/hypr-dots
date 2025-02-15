@@ -69,7 +69,6 @@ change_all_themes() {
     echo "All Qt theme changes have been applied."
 }
 
-# Check command line argument
 case "$1" in
     -d|--dracula)
         change_all_themes "Tela-circle-dracula" "Tela-circle-dracula" "Dracula" "Dracula" "Dracula"
