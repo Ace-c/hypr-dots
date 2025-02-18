@@ -1,7 +1,0 @@
-    "custom/weather": {
-        "format": "{}°c",
-        "tooltip": true,
-        "interval": 3600,
-        "exec": "wttrbar --location patna",
-        "return-type": "json"
-    },

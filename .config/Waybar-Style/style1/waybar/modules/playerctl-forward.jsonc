@@ -1,6 +1,0 @@
-    "custom/playerctl-forward": {
-        "format": "<span foreground='#d6b3ff'>󰙡</span>",
-        "on-click": "playerctl next",
-        "on-scroll-up": "playerctl volume .05+",
-        "on-scroll-down": "playerctl volume .05-",
-    },

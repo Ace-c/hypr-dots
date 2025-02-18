@@ -1,5 +1,0 @@
-    "custom/redshift": {
-        "format": "󪤪 100",
-        "on-click": "hyprshade on ~/.config/hypr/shaders/redshift.glsl"
-    },
-      

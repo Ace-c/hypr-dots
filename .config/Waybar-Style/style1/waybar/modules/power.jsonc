@@ -1,9 +1,0 @@
-    "custom/power": {
-        "format": "Log  {}",
-        "rotate": ${r_deg},
-        "exec": "echo ; echo  logout",
-        "on-click": "~/.config/hypr/scripts/logoutlaunch.sh 2",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
-
