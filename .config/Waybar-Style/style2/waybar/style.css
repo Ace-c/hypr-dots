@@ -112,7 +112,7 @@ box#themes {
     padding-right: 10px;
     background-color: alpha(@container, 0.95);
     border-radius: 5px;
-    box-shadow: 2 1 3px rgba(0, 0, 0, 1);
+    box-shadow: 1 1 3px rgba(0, 0, 0, 1);
   }
   
 #custom-theme-switcher {
