@@ -15,7 +15,7 @@ window#waybar > box {
     min-height: 1000px;
     border-radius: 8px; 
     border: 0.5px solid @bg; 
-    margin: 0px 8px 12px 8px;
+    margin: 5px 8px 12px 8px;
     background-color:  @bg; 
     box-shadow: 2px 3px 3px 1px #000000; 
 }
@@ -112,7 +112,7 @@ box#themes {
     padding-right: 10px;
     background-color: alpha(@container, 0.95);
     border-radius: 5px;
-    box-shadow: 1 1 5px rgba(0, 0, 0, 1);
+    box-shadow: 2 1 3px rgba(0, 0, 0, 1);
   }
   
 #custom-theme-switcher {
