@@ -117,7 +117,6 @@ change_all_themes() {
     change_firefox_theme "$firefox_theme"
 
 
-    # Ensure all changes are written and applied
     sync
     echo "All theme changes have been applied and written to disk."
 }
