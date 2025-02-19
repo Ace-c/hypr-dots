@@ -28,7 +28,7 @@ change_wallpaper_theme() {
         exit 1
     fi
 
-    # Set the wallpaper using swwwallpaper script
+    # will set wallpaper using swwwallpaper script
     "$SWWW_SCRIPT" -s "$wallpaper"
 }
  
