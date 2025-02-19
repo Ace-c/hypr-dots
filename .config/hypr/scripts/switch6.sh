@@ -82,7 +82,6 @@ change_all_themes() {
     change_kitty_theme "$kitty_theme"
     change_hyprlock_theme "$hyprlock_theme"
 
-    # Ensure all changes are written and applied
     sync
     echo "All theme changes have been applied and written to disk."
 }
