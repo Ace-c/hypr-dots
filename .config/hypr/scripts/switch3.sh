@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Importing existing wallpaper script
+# Importing wallpaper script
 SWWW_SCRIPT="${XDG_CONFIG_HOME:-$HOME/.config}/hypr/scripts/swwwallpaper.sh"
 
 # Define wallpaper directories for each theme
