@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Set a known working directory
 cd "$HOME" || exit 1
 
 # QT Configuration files
