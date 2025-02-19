@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Directory containing the color theme files for Waybar
+# Location theme files for Waybar
 WAYBAR_COLOR_DIR="$HOME/.config/waybar/colors"
 WAYBAR_COLORS_SYMLINK="$HOME/.config/waybar/colors.css"
 
